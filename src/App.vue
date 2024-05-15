@@ -1,11 +1,19 @@
 <template>
-  <div class="bg-slate-800">123123</div>
+<router-view></router-view>
 </template>
+
+<script>
+import Header from './components/Header.vue'
+
+export default {
+  components: {
+    Header
+  }
+}
+</script>
 
 <style scoped>
 
 </style>
 
-<script setup>
 
-</script>
