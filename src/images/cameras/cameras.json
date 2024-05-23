@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "name": "ALPHA 9 III",
+    "price": "$ 5,999",
+    "image": "alpha-9-III.png"
+  },
+  {
+    "id": 1,
+    "image": "images-1.png"
+  },
+  {
+    "id": 2,
+    "name": "ALPHA 7 CR",
+    "price": "$ 799",
+    "image": "alpha-7-cr.png"
+  },
+  {
+    "id": 3,
+    "name": "ALPHA 6700",
+    "price": "$ 599",
+    "image": "alpha-6700.png"
+  },
+  {
+    "id": 4,
+    "name": "ALPHA 7 III",
+    "price": "$ 649",
+    "image": "alpha-7-III.png"
+  }
+]

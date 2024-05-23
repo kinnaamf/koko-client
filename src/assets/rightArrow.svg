@@ -1,0 +1,22 @@
+<svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="12" height="20" fill="#1E1E1E"/>
+<g id="Home Page" clip-path="url(#clip0_0_1)">
+<rect width="1920" height="8343" transform="translate(-1809 -7628)" fill="#181414"/>
+<g id="footer">
+<g id="Rectangle 12">
+<mask id="path-1-inside-1_0_1" fill="white">
+<path d="M-1809 -30H111V194H-1809V-30Z"/>
+</mask>
+<path d="M-1809 -30H111V194H-1809V-30Z" fill="black"/>
+<path d="M111 193.5H-1809V194.5H111V193.5Z" fill="#52525B" mask="url(#path-1-inside-1_0_1)"/>
+</g>
+<rect id="Rectangle 13" x="-569" y="-15" width="600" height="50" fill="#1A1A1A"/>
+<path id="Vector 3" d="M1.5 1L10.5 10L1.5 19" stroke="#52525B" stroke-width="2"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="1920" height="8343" fill="white" transform="translate(-1809 -7628)"/>
+</clipPath>
+</defs>
+</svg>

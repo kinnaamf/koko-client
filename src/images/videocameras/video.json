@@ -1,0 +1,48 @@
+[
+  {
+    "id": 0,
+    "name": "HERO 12 CREATOR EDITION",
+    "price": "$ 999",
+    "edition": "creator",
+    "image": "hero-12.png"
+  },
+  {
+    "id": 1,
+    "name": "HERO 11 BLACK EDITION",
+    "price": "$ 799",
+    "edition": "black",
+    "image": "hero-11.png"
+  },
+  {
+    "id": 2,
+    "name": "HERO 8 BLACK EDITION",
+    "price": "$ 599",
+    "edition": "black",
+    "image": "hero-8.png"
+  },
+  {
+    "id": 3,
+    "name": "HERO 10 BLACK EDITION",
+    "price": "$ 649",
+    "edition": "black",
+    "image": "hero-10.png"
+  },
+  {
+    "id": 4,
+    "name": "HERO 7 WHITE EDITION",
+    "price": "$ 649",
+    "edition": "white",
+    "image": "hero-7.png"
+  },
+  {
+    "id": 5,
+    "image": "images-1.png"
+  },
+  {
+    "id": 6,
+    "name": "HERO 3 WHITE EDITION",
+    "price": "$ 299",
+    "edition": "white",
+    "image": "hero-3.png"
+  }
+]

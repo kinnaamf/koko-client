@@ -1,0 +1,150 @@
+[
+  {
+    "id": 0,
+    "name": "MAJOR V BLACK",
+    "price": "$ 149",
+    "color": "Black",
+    "type": "On-Ear",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "majorv-black.png"
+  },
+  {
+    "id": 1,
+    "image": "image-3.png"
+  },
+  {
+    "id": 2,
+    "name": "MAJOR IV BLACK",
+    "price": "$ 129",
+    "color": "Black",
+    "type": "On-Ear",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "majoriv-black.png"
+  },
+  {
+    "id": 3,
+    "name": "MAJOR IV BROWN",
+    "price": "$ 129",
+    "color": "Brown",
+    "type": "On-Ear",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "majoriv-brown.png"
+  },
+  {
+    "id": 4,
+    "name": "MONITOR II A.N.C. BLACK",
+    "price": "$ 299",
+    "color": "Black",
+    "type": "On-Ear",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "monitoriianc-black.png"
+  },
+  {
+    "id": 5,
+    "name": "MODE",
+    "price": "$ 59",
+    "color": "Black",
+    "type": "Earbuds",
+    "connection-type": "Wire/Mini-Jack 3.5mm",
+    "image": "mode.png"
+  },
+  {
+    "id": 6,
+    "image": "image-2.png"
+  },
+  {
+    "id": 7,
+    "name": "MODE EQ",
+    "price": "$ 59",
+    "color": "Black and Gold",
+    "type": "Earbuds",
+    "connection-type": "Wire/Mini-Jack 3.5mm",
+    "image": "mode-eq.png"
+  },
+  {
+    "id": 8,
+    "name": "APPLE AIRPODS 2 WHITE",
+    "price": "$ 299",
+    "color": "White",
+    "type": "Earbuds",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "airpods2-white.png"
+  },
+  {
+    "id": 9,
+    "name": "APPLE AIRPODS MAX SPACE",
+    "price": "$ 759",
+    "color": "Space",
+    "type": "On-Ear",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "airpodsmax-space.png"
+  },
+  {
+    "id": 10,
+    "name": "APPLE AIRPODS MAX SILVER",
+    "price": "$ 759",
+    "color": "Silver",
+    "type": "On-Ear",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "airpodsmax-silver.png"
+  },
+  {
+    "id": 11,
+    "name": "APPLE AIRPODS 3 WHITE MAGSAFE",
+    "price": "$ 759",
+    "color": "Silver",
+    "type": "On-Ear",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "airpods3-white.png"
+  },
+  {
+    "id": 12,
+    "name": "EMBERTON II CREAM",
+    "price": "$ 129",
+    "color": "Black",
+    "type": "Earbuds",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "embertonii-black.png"
+  },
+
+  {
+    "id": 13,
+    "name": "MINOR III BLACK",
+    "price": "$ 99",
+    "color": "Black",
+    "type": "Earbuds",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "minoriii-black.png"
+  },
+  {
+    "id": 14,
+    "image": "image-1.png"
+  },
+  {
+    "id": 15,
+    "name": "MINOR III BURGUNDY",
+    "price": "$ 99",
+    "color": "Burgundy",
+    "type": "Earbuds",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "minoriii-burgundy.png"
+  },
+  {
+    "id": 16,
+    "name": "MINOR III CREAM",
+    "price": "$ 99",
+    "color": "Burgundy",
+    "type": "Earbuds",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "minoriii-cream.png"
+  },
+  {
+    "id": 17,
+    "name": "MOTIF II A.N.C. BLACK",
+    "price": "$ 299",
+    "color": "Black",
+    "type": "Earbuds",
+    "connection-type": "Bluetooth/Wireless",
+    "image": "motifiianc-black.png"
+  }
+]
