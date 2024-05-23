@@ -4,33 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a31981-a0e5-44a6-9dc5-3b1899caa32c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/AllCategoriesView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AmpsView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/AudioView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CartView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderC.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeadphonesView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/ItemView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/PhotoCamerasVies.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/VideoView.vue" afterDir="false" />
+    <list default="true" id="f7a31981-a0e5-44a6-9dc5-3b1899caa32c" name="Changes" comment="all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -137,12 +113,33 @@
       <workItem from="1716020042154" duration="2000" />
       <workItem from="1716043294166" duration="287000" />
       <workItem from="1716170683656" duration="15605000" />
-      <workItem from="1716343629105" duration="18868000" />
+      <workItem from="1716343629105" duration="19506000" />
     </task>
+    <task id="LOCAL-00001" summary="all">
+      <option name="closed" value="true" />
+      <created>1716485890388</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716485890388</updated>
+    </task>
+    <task id="LOCAL-00002" summary="all">
+      <option name="closed" value="true" />
+      <created>1716485898362</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716485898362</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="all" />
+    <option name="LAST_COMMIT_MESSAGE" value="all" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
