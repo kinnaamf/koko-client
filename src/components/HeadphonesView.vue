@@ -18,7 +18,7 @@
           </p>
         </div>
       </div>
-      <div v-for="headphones in Headphones" :key="headphones.id">
+      <div v-for="headphones in Headphones" :key="headphones.id" @click="goToItem(headphones)">
         <div>
           <img :src="getImagePath(headphones.image)" :alt="headphones.name" class="w-full h-[600px] object-cover" />
         </div>
@@ -50,6 +50,9 @@ export default {
   methods: {
     getImagePath(image) {
       return (`src/images/headphones/${image}`);
+    },
+    goToItem(item) {
+      this.$router.push({path: `/headphones/item/${item.id}`, params: { item }})
     }
   }
 

@@ -5,7 +5,7 @@
     "price": "$ 299",
     "color": "Black",
     "description": "This new generation of the home line-up has an even wider soundstage than its predecessor, re-engineered for a more immersive experience. This new generation has tweeters angled outwards and updated waveguides to deliver a consistently solid sound that is so wide it chases you around the room.",
-    "image": "@/images/speakers/actoniii-black.png"
+    "image": "actioniii-black.png"
   },
   {
     "id": 1,
@@ -13,7 +13,7 @@
     "price": "$ 299",
     "color": "Cream",
     "description": "This new generation of the home line-up has an even wider soundstage than its predecessor, re-engineered for a more immersive experience. This new generation has tweeters angled outwards and updated waveguides to deliver a consistently solid sound that is so wide it chases you around the room.",
-    "image": "@/images/speakers/actoniii-cream.png"
+    "image": "actioniii-cream.png"
   },
   {
     "id": 2,
@@ -21,7 +21,7 @@
     "price": "$ 299",
     "color": "Brown",
     "description": "This new generation of the home line-up has an even wider soundstage than its predecessor, re-engineered for a more immersive experience. This new generation has tweeters angled outwards and updated waveguides to deliver a consistently solid sound that is so wide it chases you around the room.",
-    "image": "@/images/speakers/actoniii-brown.png"
+    "image": "actioniii-brown.png"
   },
   {
     "id": 3,
@@ -29,7 +29,7 @@
     "price": "$ 399",
     "color": "Black",
     "description": "The Marshall STANMORE III has a 50W class D amp for woofers and 2 x 15W class D amps for tweeters. This offers a powerful low-frequency response, but don't expect a pumping bass. Midrange was decent for natural and detailed vocals and instruments, but it offers clear and crisp highs.",
-    "image": "@/images/speakers/stanmoreiii-black.png"
+    "image": "stanmoreiii-black.png"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "price": "$ 399",
     "color": "Cream",
     "description": "The Marshall STANMORE III has a 50W class D amp for woofers and 2 x 15W class D amps for tweeters. This offers a powerful low-frequency response, but don't expect a pumping bass. Midrange was decent for natural and detailed vocals and instruments, but it offers clear and crisp highs.",
-    "image": "@/images/speakers/stanmoreiii-cream.png"
+    "image": "stanmoreiii-cream.png"
   },
   {
     "id": 5,
@@ -45,7 +45,7 @@
     "price": "$ 399",
     "color": "Brown",
     "description": "The Marshall STANMORE III has a 50W class D amp for woofers and 2 x 15W class D amps for tweeters. This offers a powerful low-frequency response, but don't expect a pumping bass. Midrange was decent for natural and detailed vocals and instruments, but it offers clear and crisp highs.",
-    "image": "@/images/speakers/stanmoreiii-brown.png"
+    "image": "stanmoreiii-brown.png"
   },
   {
     "id": 6,
@@ -53,7 +53,7 @@
     "price": "$ 599",
     "color": "Cream",
     "description": "HOME-SHAKING SOUND - Woburn III has an even wider soundstage than its predecessor and fills any space with immersive, home-shaking Marshall signature sound. Woburn III has been re-engineered with a new three-way driver system, which delivers more controlled, lower-frequency bass and greater clarity in the midrange.",
-    "image": "@/images/speakers/stanmoreiii-cream.png"
+    "image": "stanmoreiii-cream.png"
   },
   {
     "id": 7,
@@ -61,7 +61,7 @@
     "price": "$ 599",
     "color": "Black",
     "description": "HOME-SHAKING SOUND - Woburn III has an even wider soundstage than its predecessor and fills any space with immersive, home-shaking Marshall signature sound. Woburn III has been re-engineered with a new three-way driver system, which delivers more controlled, lower-frequency bass and greater clarity in the midrange.",
-    "image": "@/images/speakers/stanmoreiii-black.png"
+    "image": "stanmoreiii-black.png"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "price": "$ 299",
     "color": "Black and Brass",
     "description": "Marshall engineers use a combination of modern and vintage technologies to achieve their distinctive sound through a combination of high-quality components, including specially designed speakers, custom-built cabinets, and unique circuitry",
-    "image": "@/images/speakers/middleton-blackandbrass.png"
+    "image": "middleton-blackandbrass.png"
   },
   {
     "id": 9,
@@ -77,7 +77,7 @@
     "price": "$ 299",
     "color": "Cream",
     "description": "Marshall engineers use a combination of modern and vintage technologies to achieve their distinctive sound through a combination of high-quality components, including specially designed speakers, custom-built cabinets, and unique circuitry",
-    "image": "@/images/speakers/middleton-cream.png"
+    "image": "middleton-cream.png"
   },
   {
     "id": 10,
@@ -85,7 +85,7 @@
     "price": "$ 129",
     "color": "Black and Brass",
     "description": "Emberton II offers 30+ hours of portable playtime on a single charge. Its compact size, rugged durability and reliable playtime, make it perfect to take with you. When you're out of battery, Emberton II won't keep you waiting long – plug in your speaker and return to full battery in 3 hours.",
-    "image": "@/images/speakers/emberton-blackandbrass.png"
+    "image": "embertonii-blackandbrass.png"
   },
   {
     "id": 11,
@@ -93,7 +93,7 @@
     "price": "$ 129",
     "color": "Black and Steel",
     "description": "Emberton II offers 30+ hours of portable playtime on a single charge. Its compact size, rugged durability and reliable playtime, make it perfect to take with you. When you're out of battery, Emberton II won't keep you waiting long – plug in your speaker and return to full battery in 3 hours.",
-    "image": "@/images/speakers/emberton-blackandsteel.png"
+    "image": "embertonii-blackandsteel.png"
   },
   {
     "id": 12,
@@ -101,7 +101,7 @@
     "price": "$ 129",
     "color": "Cream",
     "description": "Emberton II offers 30+ hours of portable playtime on a single charge. Its compact size, rugged durability and reliable playtime, make it perfect to take with you. When you're out of battery, Emberton II won't keep you waiting long – plug in your speaker and return to full battery in 3 hours.",
-    "image": "@/images/speakers/emberton-cream.png"
+    "image": "embertonii-cream.png"
   },
   {
     "id": 13,
@@ -109,7 +109,7 @@
     "price": "$ 89",
     "color": "Black and Brass",
     "description": "High-fidelity Marshall tuning and solid instrument separation stands Willen head and shoulders above its competition.",
-    "image": "@/images/speakers/willen-blackandbrass.png"
+    "image": "willen-blackandbrass.png"
   },
   {
   "id": 14,
@@ -117,7 +117,7 @@
   "price": "$ 89",
   "color": "Cream",
   "description": "High-fidelity Marshall tuning and solid instrument separation stands Willen head and shoulders above its competition.",
-  "image": "@/images/speakers/willen-cream.png"
+  "image": "willen-cream.png"
   },
   {
     "id": 15,
@@ -125,7 +125,7 @@
     "price": "$ 219",
     "color": "Black and Brass",
     "description": "High-fidelity Marshall tuning and solid instrument separation stands Willen head and shoulders above its competition.",
-    "image": "@/images/speakers/stockwell-blackandbrass.png"
+    "image": "stockwell-blackandbrass.png"
   },
   {
     "id": 16,
@@ -133,7 +133,7 @@
     "price": "$ 299",
     "color": "Black and Brass",
     "description": "High-fidelity Marshall tuning and solid instrument separation stands Willen head and shoulders above its competition.",
-    "image": "@/images/speakers/kilburn-blackandbrass.png"
+    "image": "kilburn-blackandbrass.png"
   },
   {
     "id": 17,
@@ -141,7 +141,7 @@
     "price": "$ 299",
     "color": "Black",
     "description": "High-fidelity Marshall tuning and solid instrument separation stands Willen head and shoulders above its competition.",
-    "image": "@/images/speakers/kilburn-black.png"
+    "image": "kilburn-black.png"
   },
   {
     "id": 18,
@@ -149,7 +149,7 @@
     "price": "$ 449",
     "color": "Black and Brass",
     "description": "High-fidelity Marshall tuning and solid instrument separation stands Willen head and shoulders above its competition.",
-    "image": "@/images/speakers/tufton-blackandbrass.png"
+    "image": "tufton-blackandbrass.png"
   },
   {
     "id": 19,
@@ -157,7 +157,7 @@
     "price": "$ 449",
     "color": "Black",
     "description": "High-fidelity Marshall tuning and solid instrument separation stands Willen head and shoulders above its competition.",
-    "image": "@/images/speakers/tufton-black.png"
+    "image": "tufton-black.png"
   },
   {
     "id": 20,
@@ -165,7 +165,7 @@
     "price": "$ 599",
     "color": "Black",
     "description": "High-fidelity Marshall tuning and solid instrument separation stands Willen head and shoulders above its competition.",
-    "image": "@/images/speakers/jbl-party-box-club-120.png"
+    "image": "jbl-party-box-club-120.png"
   },
   {
     "id": 21,
@@ -173,7 +173,7 @@
     "price": "$ 449",
     "color": "Black",
     "description": "High-fidelity Marshall tuning and solid instrument separation stands Willen head and shoulders above its competition.",
-    "image": "@/images/speakers/jbl-party-club-320.png"
+    "image": "jbl-party-club-320.png"
   },
   {
     "id": 22,
@@ -181,6 +181,6 @@
     "price": "$ 1,449",
     "color": "Black",
     "description": "High-fidelity Marshall tuning and solid instrument separation stands Willen head and shoulders above its competition.",
-    "image": "@/images/speakers/jbl-party-ultimate.png"
+    "image": "jbl-party-ultimate.png"
   }
 ]

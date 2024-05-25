@@ -14,7 +14,7 @@
           </p>
         </div>
       </div>
-      <div v-for="(amp, index) in Amps" :key="amp.id" class="bg-neutral-700 relative">
+      <div v-for="(amp, index) in Amps" :key="amp.name" class="bg-neutral-700 relative" @click="goToItem(amp)">
         <div v-if="index != 7" class="bg-neutral-700">
           <div>
             <img :src="getImagePath(amp.image)" :alt="amp.name" class="w-full h-[600px] object-cover" />
@@ -38,7 +38,7 @@
 </template>
 
 <script>
-import Amps from '@/images/amps/amps.json'
+import Amps from '@/images/amps/amps.json';
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 
@@ -55,6 +55,9 @@ export default {
   methods: {
     getImagePath(image) {
       return (`src/images/amps/${image}`);
+    },
+    goToItem(item) {
+      this.$router.push({ path: `/amps/item/${item.id}`, params: { item } });
     }
   }
 }
@@ -73,8 +76,5 @@ export default {
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-.grid {
-
 }
 </style>

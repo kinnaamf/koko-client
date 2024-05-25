@@ -32,26 +32,26 @@
         <div>
           <h2 class="text-zinc-600 font-extrabold text-13px">SUPPORT</h2>
           <ul class="text-white">
-            <li class="mt-2"><a href="">Support</a></li>
-            <li><a href="">Warranty & Repair</a></li>
-            <li class="mt-2"><a href="">Product Support</a></li>
-            <li><a href="">Orders, shipping and delivery</a></li>
+            <li class="pt-1"><a href="">Support</a></li>
+            <li class="pt-1"><a href="">Warranty & Repair</a></li>
+            <li class="pt-1"><a href="">Product Support</a></li>
+            <li class="pt-1"><a href="">Orders, shipping and delivery</a></li>
           </ul>
         </div>
         <div>
           <h2 class="text-zinc-600 font-extrabold text-13px">ACCOUNT</h2>
           <ul class="text-white">
-            <li class="mt-2"><a href="">Sign in / Register</a></li>
-            <li><a href="">Register your amp</a></li>
+            <li class="pt-1"><a href="/#/login">Sign in / Register</a></li>
+            <li class="pt-1"><a href="">Register your amp</a></li>
           </ul>
         </div>
         <div>
           <h2 class="text-zinc-600 font-extrabold text-13px">SHOP</h2>
           <ul class="text-white">
-            <li class="mt-2"><a href="">Explore all amps</a></li>
-            <li><a href="">Pedals</a></li>
-            <li class="mt-2"><a href="">Speakers</a></li>
-            <li><a href="">Headphones</a></li>
+            <li class="pt-1"><a href="/#/amps">Explore all Amps</a></li>
+            <li class="pt-1"><a href="/#/cameras">Cameras</a></li>
+            <li class="pt-1"><a href="/#/speakers">Speakers</a></li>
+            <li class="pt-1"><a href="/#/headphones">Headphones</a></li>
           </ul>
         </div>
       </div>

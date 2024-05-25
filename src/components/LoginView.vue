@@ -6,7 +6,7 @@
             <div class="col-12">
               <div class="mb-5">
                 <h2 class="display-3 fw-semibold text-center">Sign In</h2>
-                <p class="text-center m-0 fw-medium text-gray-400 mt-5">Don't have an account? <a href="" class="text-blue-700 underline">Sign Up</a></p>
+                <p class="text-center m-0 fw-medium text-gray-400 mt-5">Don't have an account? <a href="/#/register" class="text-blue-700 underline">Sign Up</a></p>
               </div>
             </div>
           </div>

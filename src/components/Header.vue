@@ -25,10 +25,10 @@
         <div class="flex gap-10 items-center">
           <div>
             <ul class="flex gap-5 font-medium uppercase">
-              <li><a href="">Our Stores</a></li>
+              <li><a href="" class="pointer-events-none text-zinc-500">Our Stores</a></li>
               <li><a href="/#/categories">All Categories</a></li>
-              <li><a href="/#/audio">Audio Devices</a></li>
-              <li><a href="/#/video">Video Devices</a></li>
+              <li><a href="/#/audio-devices">Audio Devices</a></li>
+              <li><a href="/#/video-devices">Video Devices</a></li>
               <li><a href="/#/about">About Us</a></li>
               <li><a href="/#/contact">Contact</a></li>
               <li><a href="/#/faq">Faq</a></li>

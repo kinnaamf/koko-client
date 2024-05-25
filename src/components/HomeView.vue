@@ -48,7 +48,7 @@
               <h2>An icon forever</h2>
             </div>
             <div class="text-[13px]">
-              <a href="">Shop MAJOR V</a>
+              <a href="/#/headphones/item/0">Shop MAJOR V</a>
             </div>
             <div class="bg-[url('https://s3-alpha-sig.figma.com/img/236e/f8a4/9bd83296fe050c9bfa2f0157e8732849?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X~HeeoCAyf2aYmojjHYb8WZ1BJT7rJA-QFw1CYBdm68XPhkkkISoam9DERgOedEHtWelxOLi6OoYRRwLlrlop7kA42KQ2NYme8gERanqP-zVzS-35TVuNu1mNbcdHYK0v4niEfj22x2zJZIF2K2EY5Q-KCTRfYZ92ZRJ7MLYGByY5riKzHrvMU8~GmE2eOYwgdZaFyYqlLTLiEvO7x9o-q1-go3DLb6yd3bB9oDV8Qcz4Hg2XqXkbIPQtE6c4sBSPsrmxvKSBWtM43xoQktvqlwtuOkZfnoAth37xDqzSXGkuph3bnNcczv6ZDLZXIxriqqbknWv60ODQVwjzrISaQ__')] bg-cover w-[540px] h-[540px]">
             </div>
@@ -63,7 +63,7 @@
               </h2>
             </div>
             <div class="text-[13px]">
-              <a href="">SHOP MINOR IV</a>
+              <a href="/#/headphones/item/2">SHOP MAJOR IV</a>
             </div>
             <div class="bg-[url('https://s3-alpha-sig.figma.com/img/90a0/4e7f/6702d7496f1a93dd89f35dc6133aa6f6?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Pc3y7qWURdj5crhnNo965XtM1LT90xWOp37olMppp13NZ5HTSxMqHM87SnYPrfqoV4qfQ6ZXE6YvyZE6YIcxDRhXg2fMMtZdkpVX0GMUmIEmEXBSqgt2tm-R19h0Fh5j3V9PhK8i3q0Xj~mgd4XwfZud3jlU0aZDWjHJ8tZgufDbJJxr6Fp22ShxrQcGoACM-7uIB43bzDhgBZrclMflrtHvmorpLI~U-Ieh3b4JpEuVsZ584pL8vPBFSiY50w8xabKxbFG8fvfrTKBf3fV~7o2rXZdQBk-cDEVIgYKSGOY3Kdw13m2L4Obwspq6G03CBdZtkz1t6HHXP3exKFhxjQ__')] bg-cover w-[720px] h-[720px] g-[]">
             </div>

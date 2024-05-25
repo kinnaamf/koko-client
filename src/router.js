@@ -11,20 +11,26 @@ import AmpsView from "@/components/AmpsView.vue";
 import VideoCamerasView from "@/components/VideoCamerasView.vue";
 import PhotoCamerasVies from "@/components/PhotoCamerasVies.vue";
 import HeadphonesView from "@/components/HeadphonesView.vue";
+import SpeakersView from "@/components/SpeakersView.vue";
 
 const routes = [
     { path: '/login', component: LoginView },
     { path: '/register', component: RegisterView },
     { path: '/homepage', component: HomeView },
     { path: '/cart', component: CartView },
-    { path: '/item' ,component: ItemView},
+    { path: `/amps/item/:id` ,component: ItemView, props: true},
+    { path: `/headphones/item/:id` ,component: ItemView, props: true},
+    { path: `/speakers/item/:id` ,component: ItemView, props: true},
+    { path: `/cameras/item/:id` ,component: ItemView, props: true},
+    { path: `/video/item/:id` ,component: ItemView, props: true},
     { path: '/categories', component: AllCategoriesView},
     { path: '/audio-devices', component: AudioView },
     { path: '/video-devices', component: VideoView},
     { path: '/amps', component: AmpsView},
     { path: '/video ', component: VideoCamerasView},
     { path: '/cameras', component: PhotoCamerasVies},
-    { path: '/headphones', component: HeadphonesView}
+    { path: '/headphones', component: HeadphonesView},
+    { path: '/speakers', component: SpeakersView }
 ];
 
 const router = createRouter({
