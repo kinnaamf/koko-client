@@ -1,48 +1,60 @@
 [
   {
-    "id": 0,
+    "id": 57,
     "name": "HERO 12 CREATOR EDITION",
     "price": "$ 999",
     "edition": "creator",
-    "image": "hero-12.png"
+    "image": "hero-12.png",
+    "shortDescription": "Adventure-ready",
+    "rating": 5.0
   },
   {
-    "id": 1,
+    "id": 58,
     "name": "HERO 11 BLACK EDITION",
     "price": "$ 799",
     "edition": "black",
-    "image": "hero-11.png"
+    "image": "hero-11.png",
+    "shortDescription": "Adventure-ready",
+    "rating": 5.0
   },
   {
-    "id": 2,
+    "id": 59,
     "name": "HERO 8 BLACK EDITION",
     "price": "$ 599",
     "edition": "black",
-    "image": "hero-8.png"
+    "image": "hero-8.png",
+    "shortDescription": "Adventure-ready",
+    "rating": 5.0
   },
   {
-    "id": 3,
+    "id": 60,
     "name": "HERO 10 BLACK EDITION",
     "price": "$ 649",
     "edition": "black",
-    "image": "hero-10.png"
+    "image": "hero-10.png",
+    "shortDescription": "Adventure-ready",
+    "rating": 5.0
   },
   {
-    "id": 4,
+    "id": 61,
     "name": "HERO 7 WHITE EDITION",
     "price": "$ 649",
     "edition": "white",
-    "image": "hero-7.png"
+    "image": "hero-7.png",
+    "shortDescription": "Adventure-ready",
+    "rating": 5.0
   },
   {
-    "id": 5,
+    "id": 62,
     "image": "images-1.png"
   },
   {
-    "id": 6,
+    "id": 63,
     "name": "HERO 3 WHITE EDITION",
     "price": "$ 299",
     "edition": "white",
-    "image": "hero-3.png"
+    "image": "hero-3.png",
+    "shortDescription": "Adventure-ready",
+    "rating": 5.0
   }
 ]

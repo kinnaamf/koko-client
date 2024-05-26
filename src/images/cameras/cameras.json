@@ -1,30 +1,46 @@
 [
   {
-    "id": 0,
+    "id": 11,
     "name": "ALPHA 9 III",
     "price": "$ 5,999",
-    "image": "alpha-9-III.png"
+    "image": "alpha-9-III.png",
+    "color": "Black",
+    "description": "The α9 III is packed with a high-precision image stabilisation unit, advanced gyro sensors, and optimised image stabilisation algorithms to effectively detect and correct camera shake, offering 8.0-step 9 stabilisation.",
+    "rating": 4.5,
+    "shortDescription" : "Good 8.0-step 9 stabilisation."
   },
   {
-    "id": 1,
+    "id": 12,
     "image": "images-1.png"
   },
   {
-    "id": 2,
+    "id": 13,
     "name": "ALPHA 7 CR",
     "price": "$ 799",
-    "image": "alpha-7-cr.png"
+    "color": "Black",
+    "description" : "The Sony a7CR's advanced imaging system is powered by a 61MP Full-Frame Exmor R CMOS sensor and the BIONZ XR processor, a potent combination of incredible resolution with high clarity, low noise, and a wide 15-stop dynamic range.",
+    "image": "alpha-7-cr.png",
+    "rating": 3.8,
+    "shortDescription": "Great 60MP sensor"
   },
   {
-    "id": 3,
+    "id": 14,
     "name": "ALPHA 6700",
     "price": "$ 599",
-    "image": "alpha-6700.png"
+    "color": "Black",
+    "image": "alpha-6700.png",
+    "description": "The α6700 represents a new generation of APS-C camera bodies with a futuristic fusion of AI-based recognition technology, superlative α-series still image quality, plus moviemaking features and performance from Sony's acclaimed Cinema Line. Still images: Approx. 26.0 megapixels max.",
+    "rating": 4.7,
+    "shortDescription" : "Your best choice"
   },
   {
-    "id": 4,
+    "id": 15,
     "name": "ALPHA 7 III",
     "price": "$ 649",
-    "image": "alpha-7-III.png"
+    "color": "Black",
+    "image": "alpha-7-III.png",
+    "description": "Refined for improved speed and low-light performance, a new 24.2MP Exmor R BSI CMOS sensor and BIONZ X processor benefit image quality, video capabilities, and AF performance. The a7 III also sports a revised body design, with a new touchscreen LCD, improved EVF, larger battery, and dual memory card slots.",
+    "rating": 4.9,
+    "shortDescription" : "Your best variant."
   }
 ]

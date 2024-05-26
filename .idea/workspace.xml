@@ -5,28 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f7a31981-a0e5-44a6-9dc5-3b1899caa32c" name="Changes" comment="all">
-      <change afterPath="$PROJECT_DIR$/src/components/SpeakersView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AllCategoriesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCategoriesView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AmpsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AmpsView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AudioView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AudioView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeadphonesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadphonesView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ItemView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LoginView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/amps/amps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/amps/amps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/headphones/airpodsmax-silver.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/headphones/airpodsmax-silver.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/cameras/cameras.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/cameras/cameras.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/headphones/headphones.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/headphones/headphones.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/speakers/speakers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/speakers/speakers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/videocameras/video.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/videocameras/video.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +48,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kinnaamf/practice.git&quot;,
-    &quot;accountId&quot;: &quot;5502f40e-3119-4b22-a17e-3f82abd0f040&quot;
+    &quot;accountId&quot;: &quot;528607ad-33e0-4da4-8af5-42ead429a77e&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -135,6 +129,8 @@
       <workItem from="1716043294166" duration="287000" />
       <workItem from="1716170683656" duration="15605000" />
       <workItem from="1716343629105" duration="29914000" />
+      <workItem from="1716673807704" duration="737000" />
+      <workItem from="1716756592582" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="all">
       <option name="closed" value="true" />
