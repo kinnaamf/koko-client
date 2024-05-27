@@ -76,5 +76,6 @@ export default {
   align-items: center;
   justify-content: center;
   text-align: center;
+  pointer-events: none;
 }
 </style>

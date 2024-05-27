@@ -8,34 +8,39 @@ import AllCategoriesView from "@/components/AllCategoriesView.vue";
 import VideoView from "@/components/VideoView.vue";
 import AudioView from "@/components/AudioView.vue";
 import AmpsView from "@/components/AmpsView.vue";
-import VideoCamerasView from "@/components/VideoCamerasView.vue";
 import PhotoCamerasVies from "@/components/PhotoCamerasVies.vue";
 import HeadphonesView from "@/components/HeadphonesView.vue";
 import SpeakersView from "@/components/SpeakersView.vue";
+import VideoCamerasView from "@/components/VideoCamerasView.vue";
 
 const routes = [
-    { path: '/login', component: LoginView },
-    { path: '/register', component: RegisterView },
-    { path: '/homepage', component: HomeView },
-    { path: '/cart', component: CartView },
-    { path: `/amps/item/:id` ,component: ItemView, props: true},
-    { path: `/headphones/item/:id` ,component: ItemView, props: true},
-    { path: `/speakers/item/:id` ,component: ItemView, props: true},
-    { path: `/cameras/item/:id` ,component: ItemView, props: true},
-    { path: `/video/item/:id` ,component: ItemView, props: true},
-    { path: '/categories', component: AllCategoriesView},
-    { path: '/audio-devices', component: AudioView },
-    { path: '/video-devices', component: VideoView},
-    { path: '/amps', component: AmpsView},
-    { path: '/video ', component: VideoCamerasView},
-    { path: '/cameras', component: PhotoCamerasVies},
-    { path: '/headphones', component: HeadphonesView},
-    { path: '/speakers', component: SpeakersView }
+    { path: '/login', component: LoginView, name : 'Koko Login' },
+    { path: '/register', component: RegisterView, name : 'Koko Register' },
+    { path: '/', component: HomeView, name : 'Homepage' },
+    { path: '/cart', component: CartView, name : 'Cart' },
+    { path: `/amps/item/:id`, component: ItemView, props: true },
+    { path: `/headphones/item/:id`, component: ItemView, props: true },
+    { path: `/speakers/item/:id`, component: ItemView, props: true },
+    { path: `/cameras/item/:id`, component: ItemView, props: true },
+    { path: `/action-cameras/item/:id`, component: ItemView, props: true },
+    { path: '/categories', component: AllCategoriesView, name : 'Koko Categories' },
+    { path: '/audio-devices', component: AudioView, name : 'Audio Devices' },
+    { path: '/video-devices', component: VideoView, name : 'Video Devices' },
+    { path: '/amps', component: AmpsView, name : 'Amps' },
+    { path: '/cameras', component: PhotoCamerasVies, name : 'Cameras' },
+    { path: '/headphones', component: HeadphonesView, name : 'Headphones' },
+    { path: '/speakers', component: SpeakersView, name : 'Speakers' },
+    { path: '/action-cameras', component: VideoCamerasView  , name : 'Action Cameras' },
 ];
 
 const router = createRouter({
     history: createWebHashHistory(),
     routes
+});
+
+router.beforeEach((to, from, next) => {
+    document.title = to.name;
+    next();
 });
 
 export default router;

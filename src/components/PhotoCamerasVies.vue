@@ -5,7 +5,7 @@
       <h2 class="text-white uppercase text-6xl font-bold absolute top-1/2 left-10">Cameras</h2>
     </div>
     <div class="bg-footer-dark h-10"></div>
-    <div class="grid grid-cols-3 text-white [&>*:nth-child(7)]:col-span-2 bg-neutral-700">
+    <div class="grid grid-cols-3 text-white [&>*:nth-child(3)]:pointer-events-none bg-neutral-700">
       <div class="bg-neutral-700">
         <div class="pl-5 pt-4 gap-4 pr-32">
           <h2 class="text-2xl font-extrabold">
@@ -18,16 +18,14 @@
           </p>
         </div>
       </div>
-      <div v-for="(camera, index) in Cameras" :key="camera.id" class="bg-neutral-700 relative">
-        <div v-if="(index !=7)">
-            <div>
-              <img :src="getImagePath(camera.image)" :alt="camera.name" class="w-full h-[600px] object-cover" />
-            </div>
-            <div class="p-3">
-              <h2 class="text-xl font-medium">{{ camera.name }}</h2>
-              <h3 class="font-medium text-13px mt-1">{{ camera.price }}</h3>
-            </div>
-          </div>
+      <div v-for="(camera, index) in Cameras" :key="camera.id" @click="goToItem(camera)" class="bg-neutral-700 relative">
+        <div>
+          <img :src="getImagePath(camera.image)" :alt="camera.name" class="w-full h-[600px] object-cover" />
+        </div>
+        <div class="p-3">
+          <h2 class="text-xl font-medium">{{ camera.name }}</h2>
+          <h3 class="font-medium text-13px mt-1">{{ camera.price }}</h3>
+        </div>
       </div>
     </div>
     <Footer />
@@ -52,6 +50,9 @@ export default {
   methods: {
     getImagePath(image) {
       return (`src/images/cameras/${image}`);
+    },
+    goToItem(item) {
+      this.$router.push({ path: `/cameras/item/${item.id}`, params: { item } });
     }
   }
 

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a31981-a0e5-44a6-9dc5-3b1899caa32c" name="Changes" comment="all">
-      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c8ccd046-1f47-405d-857d-870f60a8a60a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" afterDir="false" />
@@ -16,11 +14,13 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AmpsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AmpsView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ItemView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/cameras/cameras.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/cameras/cameras.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/headphones/headphones.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/headphones/headphones.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/speakers/speakers.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/speakers/speakers.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/videocameras/video.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/videocameras/video.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PhotoCamerasVies.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhotoCamerasVies.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +30,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Vue Composition API Component" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -48,33 +46,27 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kinnaamf/practice.git&quot;,
-    &quot;accountId&quot;: &quot;528607ad-33e0-4da4-8af5-42ead429a77e&quot;
+    &quot;accountId&quot;: &quot;5502f40e-3119-4b22-a17e-3f82abd0f040&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2gRLJ2WhL0gNdbToHgIMCocgaHJ" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2h1xcx6fLI7y5PG4J4PC2K3InHn" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_interpreter_path&quot;: &quot;node&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.npm dev.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -84,28 +76,6 @@
     ]
   }
 }</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\kinnaamf\Desktop\practice\src\components" />
-      <recent name="C:\Users\melni\OneDrive\Рабочий стол\practice\src\assets" />
-      <recent name="C:\practice\src\components" />
-    </key>
-  </component>
-  <component name="RunManager" selected="npm.npm dev">
-    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:5173">
-      <method v="2" />
-    </configuration>
-    <configuration name="npm dev" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="dev" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -116,65 +86,18 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f7a31981-a0e5-44a6-9dc5-3b1899caa32c" name="Changes" comment="" />
-      <created>1715655368256</created>
+      <changelist id="c8ccd046-1f47-405d-857d-870f60a8a60a" name="Changes" comment="" />
+      <created>1716775469916</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1715655368256</updated>
-      <workItem from="1715655369145" duration="9492000" />
-      <workItem from="1715744280312" duration="4253000" />
-      <workItem from="1715786433086" duration="3836000" />
-      <workItem from="1715825307105" duration="28076000" />
-      <workItem from="1716020042154" duration="2000" />
-      <workItem from="1716043294166" duration="287000" />
-      <workItem from="1716170683656" duration="15605000" />
-      <workItem from="1716343629105" duration="29914000" />
-      <workItem from="1716673807704" duration="737000" />
-      <workItem from="1716756592582" duration="1872000" />
+      <updated>1716775469916</updated>
+      <workItem from="1716775471896" duration="76000" />
+      <workItem from="1716775549414" duration="3112000" />
+      <workItem from="1716778708540" duration="6053000" />
     </task>
-    <task id="LOCAL-00001" summary="all">
-      <option name="closed" value="true" />
-      <created>1716485890388</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1716485890388</updated>
-    </task>
-    <task id="LOCAL-00002" summary="all">
-      <option name="closed" value="true" />
-      <created>1716485898362</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1716485898362</updated>
-    </task>
-    <task id="LOCAL-00003" summary="all">
-      <option name="closed" value="true" />
-      <created>1716486376525</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1716486376525</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="all" />
-    <option name="LAST_COMMIT_MESSAGE" value="all" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/RegisterView.vue</url>
-          <line>61</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
