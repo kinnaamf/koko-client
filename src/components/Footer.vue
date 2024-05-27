@@ -1,26 +1,26 @@
 
 <template>
   <div class="bg-black">
-    <div class="px-5 pt-5">
-      <div class="grid grid-cols-2 pb-14">
-        <div class="uppercase text-[64px]">
+    <div class="px-5 pt-5 max-sm:px-0">
+      <div class="grid grid-cols-1 pb-14 max-sm:">
+        <div class="uppercase text-[64px] max-sm:text-[32px]">
           <h2 class="text-white font-extrabold">Subscribe to our <br> newsletter</h2>
         </div>
         <div class="flex flex-col text-footer gap-4">
           <div class="self-end">
-            <div class="relative w-[640px]">
-              <label for="" class="before:content-rightArrow before:absolute before:right-3 before:top-4 hover:cursor-pointer">
-                <input type="text" placeholder="Your email" class="text-gray-300 py-3 px-3 bg-footer-dark w-[640px]">
+            <div class="relative w-[640px] max-sm:w-[334px] max-sm:mt-3">
+              <label for="" class=" before:content-rightArrow before:absolute before:right-3 before:top-4 hover:cursor-pointer">
+                <input type="text" placeholder="Your email" class="max-sm:w-[334px] text-gray-300 py-3 px-3 bg-footer-dark w-[640px]">
               </label>
             </div>
           </div>
-          <div class="self-end  ">
+          <div class="self-end">
             <h4 class="ml-5">By subscribing you accept our <a href="" class="underline">privacy policy</a>.</h4>
           </div>
         </div>
       </div>
       <hr class="text-white w-screen absolute left-0">
-      <div class="pt-10 flex justify-between pb-40">
+      <div class="pt-10 flex max-sm:grid max-sm:grid-cols-2 max-sm:grid-rows-2 max-sm:gap-10 max-sm:pb-5 justify-between pb-40">
         <div>
           <h2 class="text-zinc-600 font-extrabold text-13px">NEED HELP?</h2>
           <ul class="text-white">
@@ -56,9 +56,9 @@
         </div>
       </div>
       <div class="h-10 flex items-center">
-        <ul class="text-white flex gap-4 text-13px">
+        <ul class="text-white flex gap-4 text-13px max-sm:items-center">
           <li><a href="">Privacy policy</a></li>
-          <li><a href="">Warranty</a></li>
+          <li><a href="">Warranty policy</a></li>
           <li><a href="">All policies</a></li>
           <li><a href="">Terms of purchase</a></li>
           <li><a href="">Terms of Use</a></li>

@@ -66,7 +66,7 @@ export default {
   },
   computed: {
     itemImage() {
-      return this.item.image ? `/src/images/${this.itemType}/${this.item.image}` : '';
+      return `/src/images/${this.itemType}/${this.item.image}`;
     },
     itemType() {
       const path = this.$route.path;
@@ -112,6 +112,10 @@ export default {
           items = [];
       }
       this.item = items.find(item => item.id === parseInt(this.$route.params.id)) || {};
+      if (this.item.name) {
+        document.title = this.item.name;
+      }
+      console.log(this.item.name)
     }
   }
 }

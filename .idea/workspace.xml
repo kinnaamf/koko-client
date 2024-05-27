@@ -14,12 +14,12 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AmpsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AmpsView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AllCategoriesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCategoriesView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ItemView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PhotoCamerasVies.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhotoCamerasVies.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/RegisterView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/headphones/headphones.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/headphones/headphones.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/kinnaamf/practice.git&quot;,
-    &quot;accountId&quot;: &quot;5502f40e-3119-4b22-a17e-3f82abd0f040&quot;
+    &quot;accountId&quot;: &quot;528607ad-33e0-4da4-8af5-42ead429a77e&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -67,6 +67,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -94,6 +95,9 @@
       <workItem from="1716775471896" duration="76000" />
       <workItem from="1716775549414" duration="3112000" />
       <workItem from="1716778708540" duration="6053000" />
+      <workItem from="1716814624915" duration="13600000" />
+      <workItem from="1716839495461" duration="1669000" />
+      <workItem from="1716842987915" duration="1629000" />
     </task>
     <servers />
   </component>

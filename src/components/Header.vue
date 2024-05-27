@@ -1,60 +1,83 @@
 <template>
-  <header class="text-nowrap">
-    <div class="uppercase px-40 flex justify-between items-center h-8" style="background: #27272A">
-      <div>
+  <header>
+    <div class="uppercase max-sm:px-4 px-40 flex justify-between items-center h-8" style="background: #27272A">
+      <div class="text-l max-sm:text-sm">
         <h3 style="color: #71717A">Fast Global Shipping</h3>
       </div>
-      <div class="flex gap-5">
+      <div class="flex gap-5 text-l max-sm:text-sm">
         <div>
-          <button class="uppercase" style="color: #71717A" type="button">Account</button>
+          <button class="uppercase text-l max-sm:text-sm max-sm:hidden" style="color: #71717A" type="button">Account</button>
         </div>
         <div>
-          <button class="uppercase" style="color: #71717A" type="button">United Kingdom | English</button>
+          <button class="uppercase text-l max-sm:text-sm" style="color: #71717A" type="button">United Kingdom | English</button>
         </div>
       </div>
     </div>
-    <div>
-      <div class="h-10 flex items-center px-40 justify-between" style="background-color: #F9FAFB">
-        <div>
-          <a href="/homepage">
-            <svg width="58" height="20" viewBox="0 0 58 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M12.588 19.312L5.364 13.384L3.996 14.872L3.852 19H0.9L0.276 0.279999H4.476L4.092 12.016L7.956 5.32L12.132 6.04L7.716 10.84L12.828 19.312H12.588ZM27.7963 12.328C27.7963 13.384 27.5803 14.344 27.1483 15.208C26.7163 16.056 26.1483 16.784 25.4443 17.392C24.7403 18 23.9803 18.472 23.1643 18.808C22.3483 19.128 21.5563 19.288 20.7883 19.288C20.0203 19.288 19.2283 19.128 18.4123 18.808C17.5963 18.472 16.8283 18 16.1083 17.392C15.4043 16.784 14.8283 16.056 14.3803 15.208C13.9483 14.344 13.7323 13.384 13.7323 12.328C13.7323 11.272 13.9483 10.312 14.3803 9.448C14.8283 8.584 15.4043 7.848 16.1083 7.24C16.8283 6.616 17.5963 6.144 18.4123 5.824C19.2283 5.488 20.0203 5.32 20.7883 5.32C21.5563 5.32 22.3483 5.488 23.1643 5.824C23.9803 6.144 24.7403 6.616 25.4443 7.24C26.1483 7.848 26.7163 8.584 27.1483 9.448C27.5803 10.312 27.7963 11.272 27.7963 12.328ZM21.5083 17.56C22.3563 17.56 23.0043 17.256 23.4523 16.648C23.9003 16.024 24.1243 14.904 24.1243 13.288C24.1243 11.848 23.9003 10.672 23.4523 9.76C23.0203 8.848 22.4923 8.184 21.8683 7.768C21.2443 7.336 20.6443 7.12 20.0683 7.12C19.5083 7.12 19.0283 7.248 18.6283 7.504C18.2283 7.76 17.9243 8.2 17.7163 8.824C17.5083 9.432 17.4043 10.28 17.4043 11.368C17.4043 12.344 17.5323 13.216 17.7883 13.984C18.0603 14.752 18.4043 15.408 18.8203 15.952C19.2363 16.48 19.6763 16.88 20.1403 17.152C20.6203 17.424 21.0763 17.56 21.5083 17.56ZM42.7989 19.312L35.5749 13.384L34.2069 14.872L34.0629 19H31.1109L30.4869 0.279999H34.6869L34.3029 12.016L38.1669 5.32L42.3429 6.04L37.9269 10.84L43.0389 19.312H42.7989ZM58.0073 12.328C58.0073 13.384 57.7913 14.344 57.3593 15.208C56.9273 16.056 56.3593 16.784 55.6553 17.392C54.9513 18 54.1913 18.472 53.3753 18.808C52.5593 19.128 51.7673 19.288 50.9993 19.288C50.2313 19.288 49.4393 19.128 48.6233 18.808C47.8073 18.472 47.0393 18 46.3193 17.392C45.6153 16.784 45.0393 16.056 44.5913 15.208C44.1593 14.344 43.9433 13.384 43.9433 12.328C43.9433 11.272 44.1593 10.312 44.5913 9.448C45.0393 8.584 45.6153 7.848 46.3193 7.24C47.0393 6.616 47.8073 6.144 48.6233 5.824C49.4393 5.488 50.2313 5.32 50.9993 5.32C51.7673 5.32 52.5593 5.488 53.3753 5.824C54.1913 6.144 54.9513 6.616 55.6553 7.24C56.3593 7.848 56.9273 8.584 57.3593 9.448C57.7913 10.312 58.0073 11.272 58.0073 12.328ZM51.7193 17.56C52.5673 17.56 53.2153 17.256 53.6633 16.648C54.1113 16.024 54.3353 14.904 54.3353 13.288C54.3353 11.848 54.1113 10.672 53.6633 9.76C53.2313 8.848 52.7033 8.184 52.0793 7.768C51.4553 7.336 50.8553 7.12 50.2793 7.12C49.7193 7.12 49.2393 7.248 48.8393 7.504C48.4393 7.76 48.1353 8.2 47.9273 8.824C47.7193 9.432 47.6153 10.28 47.6153 11.368C47.6153 12.344 47.7433 13.216 47.9993 13.984C48.2713 14.752 48.6153 15.408 49.0312 15.952C49.4473 16.48 49.8873 16.88 50.3513 17.152C50.8313 17.424 51.2873 17.56 51.7193 17.56Z" fill="#030712"/>
-            </svg>
-          </a>
+    <div class="h-10 flex items-center px-40 justify-between max-sm:hidden" style="background-color: #F9FAFB">
+      <div>
+        <a href="/homepage">
+          <svg width="58" height="20" viewBox="0 0 58 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12.588 19.312L5.364 13.384L3.996 14.872L3.852 19H0.9L0.276 0.279999H4.476L4.092 12.016L7.956 5.32L12.132 6.04L7.716 10.84L12.828 19.312H12.588ZM27.7963 12.328C27.7963 13.384 27.5803 14.344 27.1483 15.208C26.7163 16.056 26.1483 16.784 25.4443 17.392C24.7403 18 23.9803 18.472 23.1643 18.808C22.3483 19.128 21.5563 19.288 20.7883 19.288C20.0203 19.288 19.2283 19.128 18.4123 18.808C17.5963 18.472 16.8283 18 16.1083 17.392C15.4043 16.784 14.8283 16.056 14.3803 15.208C13.9483 14.344 13.7323 13.384 13.7323 12.328C13.7323 11.272 13.9483 10.312 14.3803 9.448C14.8283 8.584 15.4043 7.848 16.1083 7.24C16.8283 6.616 17.5963 6.144 18.4123 5.824C19.2283 5.488 20.0203 5.32 20.7883 5.32C21.5563 5.32 22.3483 5.488 23.1643 5.824C23.9803 6.144 24.7403 6.616 25.4443 7.24C26.1483 7.848 26.7163 8.584 27.1483 9.448C27.5803 10.312 27.7963 11.272 27.7963 12.328ZM21.5083 17.56C22.3563 17.56 23.0043 17.256 23.4523 16.648C23.9003 16.024 24.1243 14.904 24.1243 13.288C24.1243 11.848 23.9003 10.672 23.4523 9.76C23.0203 8.848 22.4923 8.184 21.8683 7.768C21.2443 7.336 20.6443 7.12 20.0683 7.12C19.5083 7.12 19.0283 7.248 18.6283 7.504C18.2283 7.76 17.9243 8.2 17.7163 8.824C17.5083 9.432 17.4043 10.28 17.4043 11.368C17.4043 12.344 17.5323 13.216 17.7883 13.984C18.0603 14.752 18.4043 15.408 18.8203 15.952C19.2363 16.48 19.6763 16.88 20.1403 17.152C20.6203 17.424 21.0763 17.56 21.5083 17.56ZM42.7989 19.312L35.5749 13.384L34.2069 14.872L34.0629 19H31.1109L30.4869 0.279999H34.6869L34.3029 12.016L38.1669 5.32L42.3429 6.04L37.9269 10.84L43.0389 19.312H42.7989ZM58.0073 12.328C58.0073 13.384 57.7913 14.344 57.3593 15.208C56.9273 16.056 56.3593 16.784 55.6553 17.392C54.9513 18 54.1913 18.472 53.3753 18.808C52.5593 19.128 51.7673 19.288 50.9993 19.288C50.2313 19.288 49.4393 19.128 48.6233 18.808C47.8073 18.472 47.0393 18 46.3193 17.392C45.6153 16.784 45.0393 16.056 44.5913 15.208C44.1593 14.344 43.9433 13.384 43.9433 12.328C43.9433 11.272 44.1593 10.312 44.5913 9.448C45.0393 8.584 45.6153 7.848 46.3193 7.24C47.0393 6.616 47.8073 6.144 48.6233 5.824C49.4393 5.488 50.2313 5.32 50.9993 5.32C51.7673 5.32 52.5593 5.488 53.3753 5.824C54.1913 6.144 54.9513 6.616 55.6553 7.24C56.3593 7.848 56.9273 8.584 57.3593 9.448C57.7913 10.312 58.0073 11.272 58.0073 12.328ZM51.7193 17.56C52.5673 17.56 53.2153 17.256 53.6633 16.648C54.1113 16.024 54.3353 14.904 54.3353 13.288C54.3353 11.848 54.1113 10.672 53.6633 9.76C53.2313 8.848 52.7033 8.184 52.0793 7.768C51.4553 7.336 50.8553 7.12 50.2793 7.12C49.7193 7.12 49.2393 7.248 48.8393 7.504C48.4393 7.76 48.1353 8.2 47.9273 8.824C47.7193 9.432 47.6153 10.28 47.6153 11.368C47.6153 12.344 47.7433 13.216 47.9993 13.984C48.2713 14.752 48.6153 15.408 49.0312 15.952C49.4473 16.48 49.8873 16.88 50.3513 17.152C50.8313 17.424 51.2873 17.56 51.7193 17.56Z" fill="#030712"/>
+          </svg>
+        </a>
+      </div>
+      <div class="flex max-sm:flex-row gap-10 max-sm:gap-10 items-center">
+        <div class="flex max-sm:flex-none">
+          <ul class="flex flex-wrap max-sm:flex-nowrap gap-4 max-sm:gap-5 font-medium uppercase text-l max-sm:text-sm">
+            <li><a href="" class="pointer-events-none text-zinc-500">Our Stores</a></li>
+            <li><a href="/#/categories">All Categories</a></li>
+            <li><a href="/#/audio-devices">Audio Devices</a></li>
+            <li><a href="/#/video-devices">Video Devices</a></li>
+            <li><a href="/#/about">About Us</a></li>
+            <li><a href="/#/contact">Contact</a></li>
+            <li><a href="/#/faq">Faq</a></li>
+          </ul>
         </div>
-        <div class="flex gap-10 items-center">
-          <div>
-            <ul class="flex gap-5 font-medium uppercase">
-              <li><a href="" class="pointer-events-none text-zinc-500">Our Stores</a></li>
-              <li><a href="/#/categories">All Categories</a></li>
-              <li><a href="/#/audio-devices">Audio Devices</a></li>
-              <li><a href="/#/video-devices">Video Devices</a></li>
-              <li><a href="/#/about">About Us</a></li>
-              <li><a href="/#/contact">Contact</a></li>
-              <li><a href="/#/faq">Faq</a></li>
-            </ul>
-          </div>
-          <div class="gap-5 flex items-center">
-            <div class="w-[20rem] h-7">
-              <label class="relative block">
-                <span class="sr-only">Search</span>
-                <span class="absolute inset-y-0 right-0 flex items-center pr-2 hover:cursor-pointer">
-                  <a href="/#/cart">
-                    <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="flex gap-5 items-center">
+          <div class="w-48 max-sm:w-[20rem] h-7">
+            <label class="relative block">
+              <span class="sr-only">Search</span>
+              <span class="absolute inset-y-0 right-0 flex items-center pr-2 hover:cursor-pointer">
+                <a href="/#/cart">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17" fill="none">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M13.1908 7.3454C13.1908 10.5737 10.5737 13.1908 7.3454 13.1908C4.11707 13.1908 1.5 10.5737 1.5 7.3454C1.5 4.11707 4.11707 1.5 7.3454 1.5C10.5737 1.5 13.1908 4.11707 13.1908 7.3454ZM11.8195 12.5265C10.6196 13.5635 9.05577 14.1908 7.3454 14.1908C3.56479 14.1908 0.5 11.126 0.5 7.3454C0.5 3.56479 3.56479 0.5 7.3454 0.5C11.126 0.5 14.1908 3.56479 14.1908 7.3454C14.1908 9.0557 13.5636 10.6195 12.5266 11.8194L16.5002 15.793L15.7931 16.5001L11.8195 12.5265Z" fill="#A1A1AA"/>
                   </svg>
-                  </a>
-                </span>
-                <input class="w-full h-7 placeholder:text-gray-400 block border-marsh bg-transparent border-1 py-2 pl-3 pr-3 focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 sm:text-sm" placeholder="Search for anything..." type="text" name="search"/>
-              </label>
-            </div>
-            <div>
-              <a href="">
-                <svg width="16" height="13" viewBox="0 0 16 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                </a>
+              </span>
+              <input class="w-full h-7 placeholder:text-gray-400 block border-marsh bg-transparent border-1 py-2 pl-3 pr-3 focus:outline-none focus:border-gray-500 focus:ring-gray-500 focus:ring-1 max-sm:text-sm" placeholder="Search for anything..." type="text" name="search"/>
+            </label>
+          </div>
+          <div>
+            <a href="">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="13" viewBox="0 0 16 13" fill="none">
                 <path d="M4 4H2.5C1.39543 4 0.5 4.89543 0.5 6V10.5C0.5 11.6046 1.39543 12.5 2.5 12.5H13.5C14.6046 12.5 15.5 11.6046 15.5 10.5V6C15.5 4.89543 14.6046 4 13.5 4H4ZM4 4V2.5C4 1.39543 4.89543 0.5 6 0.5H10C11.1046 0.5 12 1.39543 12 2.5V3.5" stroke="black"/>
               </svg>
-              </a>
-            </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="max-sm:visible relative z-10">
+      <div class="hidden bg-transparent max-sm:flex justify-start items-start absolute">
+        <div class="bg-white max-sm:w-screen p-2 pr-3 flex flex-col gap-3">
+          <div class="flex items-center gap-3">
+            <button type="button" class="rotate-180 items-center gap-2 font-medium flex bg-white" @click="toggleMenu">
+              <span class="rotate-180">Menu</span>
+              <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" x="0" y="0" viewBox="0 0 40 40" style="enable-background:new 0 0 512 512" xml:space="preserve"><g><g fill="#000" fill-rule="evenodd" clip-rule="evenodd"><path d="M3.75 10c0-.69.56-1.25 1.25-1.25h30a1.25 1.25 0 1 1 0 2.5H5c-.69 0-1.25-.56-1.25-1.25zM3.75 30c0-.69.56-1.25 1.25-1.25h30a1.25 1.25 0 1 1 0 2.5H5c-.69 0-1.25-.56-1.25-1.25zM10.417 20c0-.69.56-1.25 1.25-1.25H35a1.25 1.25 0 1 1 0 2.5H11.667c-.69 0-1.25-.56-1.25-1.25z" fill="#000000" opacity="1" data-original="#000000"></path></g></g></svg>
+            </button>
+
+          </div>
+          <div v-if="isMenuOpen" class="ease-in-out duration-300 bg-white">
+            <ul class="flex flex-col gap-4 max-sm:gap-5 font-medium uppercase text-l max-sm:text-sm">
+              <li><a href="/#/" class="bg-white">Back to Homepage</a></li>
+              <li><a href="" class="pointer-events-none bg-white text-zinc-500">Our Stores</a></li>
+              <li><a href="/#/categories" class="bg-white">All Categories</a></li>
+              <li><a href="/#/audio-devices" class="bg-white">Audio Devices</a></li>
+              <li><a href="/#/video-devices" class="bg-white">Video Devices</a></li>
+              <li><a href="/#/about" class="bg-white">About Us</a></li>
+              <li><a href="/#/contact" class="bg-white">Contact</a></li>
+              <li><a href="/#/faq" class="bg-white">Faq</a></li>
+            </ul>
           </div>
         </div>
       </div>
@@ -64,7 +87,17 @@
 
 <script>
 export default {
-  name: 'Header'
+  name: 'Header',
+  data() {
+    return {
+      isMenuOpen: false
+    }
+  },
+  methods: {
+    toggleMenu() {
+      this.isMenuOpen = !this.isMenuOpen;
+    }
+  }
 }
 </script>
 
