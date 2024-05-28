@@ -21,9 +21,9 @@
             <a href="/#/video-devices" class="uppercase max-sm:relative max-sm:bottom-3 text-7xl max-sm:text-2xl bg-black max-sm:px-36 max-sm:py-2 max-sm:text-center max-sm:font-bold">Video Devices</a>
           </div>
           <div>
-            <a href="">
+            <a href="/#/video-devices">
               <img src="https://s3-alpha-sig.figma.com/img/d9f2/89c8/ad7555654f2d62b3cec72e8cf86acf25?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=DojXqvVNx4pce3xbBbWzqzftBZcPmOSe2ta87qVB9FJLb315zFx93GIjd~xBF9jCJI2ZtEdXmw5ntZ6xYtTN5Kzxo78NFeCNOijjb5GgpKnVLOZoyQw-2IwMFw8bU6l5L16ldKJtsWpyNeXVc70FA8bbLOcz0T2QovCBazChGdwLjoYbmgiQZpochR7392NgpKGkU297IvbLYWZgKbvZw3UdBe90MOGKhllyPn~jBOEysNiWoiDSyMIPN8tDyGTE8CEwBUaG1uvl~hqRA3OsWipq2T~HccQ656nBJSHn6KP4-B0bLYjmXjqXHDV054uiPVur4VDH2Ix7IoWfJt19~g__"
-                   alt="/#/video-devices" class="w-[1200px] h-[600px] max-sm:w-[430px] max-sm:h-[272px]">
+                   alt="" class="w-[1200px] h-[600px] max-sm:w-[430px] max-sm:h-[272px]">
             </a>
           </div>
         </div>

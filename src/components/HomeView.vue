@@ -41,9 +41,9 @@
             </div>
         </div>
       </div>
-      <div class="flex max-sm:pl-40 text-black py-24 px-40 justify-between max-sm:px-0 max-sm:py-0 max-sm:mt-10 mt-40 uppercase font-bold w-screen">
-        <div class="flex">
-          <div class="flex flex-column items-center max-sm:items-start max-sm:gap-0 max-sm:w-[430px] max-sm:flex-row gap-10">
+      <div class="flex bg-white max-sm:bg-black max-sm:bg-none max-sm:pl-40 text-black py-24 px-40 justify-between max-sm:px-0 max-sm:py-0 max-sm:mt-10 mt-40 uppercase font-bold w-screen">
+        <div class="flex max-sm:bg-dark-marsh">
+          <div class="flex flex-column items-center max-sm:items-start max-sm:bg-blend-overlay max-sm:gap-0 max-sm:w-[430px] max-sm:flex-row gap-10">
             <div class="text-5xl">
               <h2 class="max-sm:text-white max-sm:self-center max-sm:pl-3">An icon forever</h2>
             </div>
@@ -57,7 +57,7 @@
             </div>
           </div>
         </div>
-        <div class="flex mt-40 max-sm:mt-10 max-sm:bg-white max-sm:block">
+        <div class="flex mt-40 max-sm:mt-10 max-sm:hidden">
           <div class="flex flex-column items-center gap-10 max-sm:block">
             <div class="text-5xl text-center">
               <h2>

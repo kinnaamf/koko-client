@@ -1,15 +1,15 @@
 <template>
   <HeaderC/>
-      <div class="bg-gray-200 h-screen px-40 pt-52">
+      <div class="bg-gray-200 h-screen px-40 pt-52 max-sm:px-0 max-sm:pt-10">
         <h1 class="uppercase text-4xl font-extrabold ml-10">Your Bag</h1>
-        <div class="flex items-start justify-between mt-10">
-          <div class="flex">
-            <div class="bg-white flex w-[540px]">
+        <div class="flex items-start justify-between mt-10 max-sm:flex-col max-sm:gap-5">
+          <div class="flex max-sm:h-[160px]">
+            <div class="bg-white flex w-[540px] max-sm:w-[430px]">
               <img src="https://via.placeholder.com/160x160" alt="">
               <div class="flex gap-10 py-3 px-3">
                 <div class="flex flex-col gap-2 font-medium">
-                  <span>MG10 COMBO</span>
-                  <span class="text-zinc-600">BLACK AND GOLD</span>
+                  <span class="max-sm:text-sm">MG10 COMBO</span>
+                  <span class="text-zinc-600 max-sm:text-sm">BLACK AND GOLD</span>
                   <span>$ 89</span>
                 </div>
                 <div class="flex items-start">
@@ -52,7 +52,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-white w-[540px] font-medium">
+          <div class="bg-white w-[540px] max-sm:w-[430px] font-medium">
             <div class="flex justify-between px-5 py-3 border-b">
               <h3 class="uppercase text-zinc-600">Subtotal</h3>
               <h3>$ 89</h3>
@@ -74,7 +74,7 @@
               <p>VAT (20%) and import duties included</p>
             </div>
             <div class="px-5 mt-10">
-              <button type="button" class="text-white w-full text-2xl h-10 bg-black">
+              <button type="button" class="max-sm:flex max-sm:items-center max-sm:justify-center max-sm:py-10  text-white w-full text-2xl h-10 bg-black">
                 CHECKOUT
               </button>
             </div>

@@ -1,15 +1,15 @@
 <template>
   <Header />
   <div class="bg-dark-marsh">
-    <div class="py-40">
-      <div class="flex flex-col px-80 text-white">
-        <div class="flex gap-10">
+    <div class="py-40 max-sm:py-20">
+      <div class="flex flex-col px-80 max-sm:px-0 text-white">
+        <div class="flex max-sm:flex-col gap-10">
           <div>
             <img :src="itemImage" alt="">
           </div>
           <div class="flex mt-20">
-            <div class="flex flex-col gap-10">
-              <div class="flex justify-between">
+            <div class="flex flex-col gap-10 max-sm:gap-3">
+              <div class="flex justify-between max-sm:px-2">
                 <h2 class="text-5xl uppercase font-bold">{{ item.name }}</h2>
                 <div class="flex items-center gap-3">
                   <span class="ml-10">{{ item.rating }}</span>
@@ -19,17 +19,17 @@
                 </div>
               </div>
               <div class="text-5xl font-extrabold">
-                <h2>{{ item.price }}</h2>
+                <h2 class="max-sm:px-2">{{ item.price }}</h2>
               </div>
               <div class="flex gap-10 text-zinc-400">
-                <h3>{{ item.shortDescription }}</h3>
+                <h3 class="max-sm:px-2">{{ item.shortDescription }}</h3>
                 <a href="" class="underline">More details</a>
               </div>
               <div>
-                <h3>{{ item.color }}</h3>
+                <h3 class="max-sm:px-2">{{ item.color }}</h3>
               </div>
               <div>
-                <button type="button" @click="toCart" class="bg-white text-black py-3 px-40 uppercase font-bold">
+                <button type="button" @click="toCart" class="max-sm:w-screen bg-white text-black py-3 px-40 uppercase font-bold">
                   Add to bag
                 </button>
               </div>
@@ -37,7 +37,7 @@
           </div>
         </div>
         <div id="description" class="mt-40 mb-10">
-          <h2 class="text-xl text-center">{{ item.description }}</h2>
+          <h2 class="text-xl text-center max-sm:px-2">{{ item.description }}</h2>
         </div>
       </div>
     </div>
