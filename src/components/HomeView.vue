@@ -11,7 +11,7 @@
             FOR THE ROAD
           </h1>
           <p class="text-13px mt-12">
-            MEET OUR KOKO AMBASSADORS
+            {{ $t('homepage_ambassadors')}}
           </p>
         </div>
       </div>

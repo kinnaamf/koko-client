@@ -24,13 +24,13 @@
       <div class="flex max-sm:flex-row gap-10 max-sm:gap-10 items-center">
         <div class="flex max-sm:flex-none">
           <ul class="flex flex-wrap max-sm:flex-nowrap gap-4 max-sm:gap-5 font-medium uppercase text-l max-sm:text-sm">
-            <li><a href="" class="pointer-events-none text-zinc-500">Our Stores</a></li>
-            <li><a href="/#/categories">All Categories</a></li>
-            <li><a href="/#/audio-devices">Audio Devices</a></li>
-            <li><a href="/#/video-devices">Video Devices</a></li>
-            <li><a href="/#/about">About Us</a></li>
-            <li><a href="/#/contact">Contact</a></li>
-            <li><a href="/#/faq">Faq</a></li>
+            <li><a href="" class="pointer-events-none text-zinc-500">{{ $t('header_stores') }}</a></li>
+            <li><a href="/#/categories">{{ $t('header_categories') }}</a></li>
+            <li><a href="/#/audio-devices">{{ $t('header_audio') }}</a></li>
+            <li><a href="/#/video-devices">{{ $t('header_video') }}</a></li>
+            <li><a href="/#/about">{{ $t('header_about') }}</a></li>
+            <li><a href="/#/contact">{{ $t('header_contact') }}</a></li>
+            <li><a href="/#/faq">{{ $t('header_faq') }}</a></li>
           </ul>
         </div>
         <div class="flex gap-5 items-center">
@@ -49,8 +49,6 @@
               <input type="text" placeholder="Search" class="focus:outline-0 font-medium w-screen">
 <!--              {{ $t('hello') }}-->
             </label>
-            <hr>
-            <div>123123</div>
           </div>
           <div>
             <a href="/#/cart">
@@ -126,7 +124,7 @@ export default {
     makeVisible() {
       let x =  document.querySelector('.typo')
       x.classList.toggle('hidden')
-      x.style.transition = '.5s'
+      x.classList.add('duration-100')
     }
   }
 }
