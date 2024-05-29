@@ -84,15 +84,6 @@
           </div>
         </div>
         </div>
-<!--        -->
-
-
-
-
-
-
-  <!--    123123123-->
-
 </template>
 
 <script>
@@ -101,6 +92,15 @@ import HeaderC from '@/components/HeaderC.vue';
 export default {
   components: {
     HeaderC
+  },
+  data() {
+    return {
+      cartItems: []
+    };
+  },
+  created() {
+
+    this.cartItems = JSON.parse(localStorage.getItem('cart')) || [];
   }
 };
 </script>

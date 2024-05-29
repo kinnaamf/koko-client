@@ -88,7 +88,18 @@ export default {
   },
   methods: {
     toCart() {
+      let cartItems = JSON.parse(localStorage.getItem('cart')) || [];
 
+      const exists = cartItems.findIndex(item => item.id === this.item.id);
+
+      if (exists !== -1) {
+        cartItems[exists].quantity++;
+      } else {
+        this.item.quantity = 1;
+        cartItems.push(this.item);
+      }
+
+      localStorage.setItem('cart', JSON.stringify(cartItems));
     },
     loadItem() {
       let items;

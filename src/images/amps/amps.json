@@ -7,7 +7,7 @@
     "description": "MG10 is a versatile mixer suitable for a wide range of users and applications. Input channels: 10 Line Inputs (4 mono, 3 stereo), 4 Mic Inputs with 48V phantom power and HPH per channel. Output channels: 2 ST, 1 MONITOR, 1 AUX send, 1 PHONES.",
     "image": "mg10.png",
     "shortDescription": "Simple 10W Combo",
-    "rating": 3.5
+    "rating": 2.5
   },
   {
   "id": 1,
@@ -47,7 +47,7 @@
     "description": "The Marshall MG30GFX is a 30W amp that captures the iconic Marshall sound. Featuring clean, crunch, OD1, and OD2 channels with customizable tones, it offers versatility for various playing styles. The 10” speaker delivers a powerful sound suitable for rehearsals and stage performances.",
     "image": "mg30gfx.png",
     "shortDescription": "Simple 30W Combo",
-    "rating": 4.4
+    "rating": 2.3
   },
   {
     "id": 5,
@@ -63,7 +63,7 @@
     "id": 6,
     "name": "STUDIO JTM HEAD",
     "price": "FROM $ 949",
-    "color": "Black and Gold",
+    "color": "Black and Brass",
     "description": "From its legendary warm and smooth tone to blending the voices for a combination of crunch and clean, the Studio JTM brings the outstanding sound that Marshall is so well known for. The smaller scale of the Studio JTM gives players the power of the authentic Marshall tone, in a more compact design.",
     "image": "studiojtm.png",
     "shortDescription": "Just a Great Combo",
@@ -78,7 +78,7 @@
     "id": 8,
     "name": "STUDIO CLASSIC HEAD",
     "price": "FROM $ 949",
-    "color": "Black and Gold",
+    "color": "Black and Brass",
     "description": "The Studio Classic is loaded with all the player-friendly features you need, including a master volume, 3-band EQ with Presence control, preamp volume, effects loop, and DI output. You also get a power reduction circuit for attaining cranked-up tones without violating a noise ordinance.",
     "image": "studioclassic.png",
     "shortDescription": "A great Studio Head",
@@ -98,7 +98,7 @@
     "id": 10,
     "name": "JCM800 2203 VINTAGE REISSUE HEAD",
     "price": "FROM $ 1,869",
-    "color": "Black and Gold",
+    "color": "Black and Brass",
     "description": "The Marshall JCM800 2203 Guitar Tube Amplifier Head is a one channel, all valve amplifier with no reverb or built-in effects. The Marshall JCM800 2203 Amplifier Head features an easy to use interface and a Series Effects Loop with a true bypass switch, this takes the loop completely out of the circuit.",
     "image": "jcm800.png",
     "shortDescription": "Our Best Combo We Sell",
