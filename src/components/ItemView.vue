@@ -52,7 +52,7 @@ import Amps from '@/images/amps/amps.json';
 import Headphones from '@/images/headphones/headphones.json';
 import Speakers from '@/images/speakers/speakers.json';
 import Cameras from '@/images/cameras/cameras.json';
-import Action from '@/images/videocameras/video.json';
+import Video from '@/images/video/video.json';
 import { cartStore } from '@/store/cartStore';
 
 export default {
@@ -75,7 +75,7 @@ export default {
       if (path.includes('speakers')) return 'speakers';
       if (path.includes('amps')) return 'amps';
       if (path.includes('cameras')) return 'cameras';
-      if (path.includes('action-cameras')) return 'action-cameras';
+      if (path.includes('video')) return 'video';
       return '';
     }
   },
@@ -106,8 +106,8 @@ export default {
         case 'cameras':
           items = Cameras;
           break;
-        case 'action-cameras':
-          items = Action;
+        case 'video':
+          items = Video;
           break;
         default:
           items = [];

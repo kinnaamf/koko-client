@@ -3,10 +3,10 @@
   <div class="bg-gray-200 h-screen px-40 pt-52 max-sm:px-0 max-sm:pt-10">
     <h1 class="uppercase text-4xl font-extrabold ml-10">Your Bag</h1>
     <div v-if="!localStorageIsEmpty" class="flex items-start justify-between mt-10 max-sm:flex-col max-sm:gap-5">
-      <div class="flex max-sm:h-[160px] flex-col gap-5">
+      <div class="flex max-sm:flex-col flex-col gap-5 max-sm:h-max">
         <div v-for="item in cartItems" :key="item.id" class="bg-white flex w-[540px] max-sm:w-[430px]">
-          <img :src="getImagePath(item)" alt="Item Image" class="w-[160px] h-[160px]">
-          <div class="flex gap-10 py-3 px-3">
+          <img :src="getImagePath(item)" alt="Item Image" class="w-[160px] h-[160px] max-sm:h-[172px]">
+          <div class="flex gap-10 py-3 px-3 ">
             <div class="flex flex-col gap-2 font-medium">
               <span class="max-sm:text-sm">{{ item.name }}</span>
               <span class="text-zinc-600 max-sm:text-sm">{{ item.color }}</span>
@@ -98,11 +98,11 @@ export default {
     };
   },
   computed: {
+    subtotal() {
+      return this.cartItems.reduce((acc, item) => acc + (String(item.price).substr(2) || 0) * item.quantity, 0);
+    },
     shipping() {
       return this.subtotal > 100 ? 0 : 20;
-    },
-    subtotal() {
-      return this.cartItems.reduce((acc, item) => acc + (parseFloat(item.price.slice(2)) || 0) * item.quantity, 0);
     },
     total() {
       return this.subtotal + this.shipping;
@@ -149,7 +149,7 @@ export default {
           basePath = 'src/images/speakers';
           break;
         case 'Videocameras':
-          basePath = 'src/images/videocameras';
+          basePath = 'src/images/video';
           break;
         default:
           basePath = 'src/images';
