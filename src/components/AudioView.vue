@@ -52,16 +52,19 @@
       </div>
     </div>
   </div>
+  <ScrollButton/>
   <Footer/>
 </template>
 <script>
 import Header from './Header.vue'
 import Footer from './Footer.vue'
+import ScrollButton from "@/components/ScrollButton.vue"
 
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    ScrollButton
   }
 }
 </script>

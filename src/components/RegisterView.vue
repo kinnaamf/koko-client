@@ -95,36 +95,49 @@
     </div>
   </template>
   <script>
-  function getUsers() {
-    const usersJSON = localStorage.getItem('users');
-    return usersJSON ? JSON.parse(usersJSON) : [];
+  export default {
+    methods: {
+      getUsers() {
+        const usersJSON = localStorage.getItem('users');
+        return usersJSON ? JSON.parse(usersJSON) : [];
+      },
+
+      saveUsers(users) {
+        localStorage.setItem('users', JSON.stringify(users));
+      },
+
+      addUser(username, email, password) {
+        const users = this.getUsers();
+        users.push({ username, email, password });
+        this.saveUsers(users);
+      },
+
+      handleFormSubmit(event) {
+        event.preventDefault();
+
+        const usernameInput = this.$refs.username;
+        const emailInput = this.$refs.email;
+        const passwordInput = this.$refs.password;
+
+        if (!usernameInput || !emailInput || !passwordInput) {
+          console.error("Required input fields not found.");
+          return;
+        }
+
+        const username = usernameInput.value;
+        const email = emailInput.value;
+        const password = passwordInput.value;
+
+        this.addUser(username, email, password);
+
+        window.location.href = '/#/'; // Redirect after successful form submission
+      }
+    },
+
+    mounted() {
+      // Optionally, you can add further initialization code here
+    }
   }
-
-  function saveUsers(users) {
-    localStorage.setItem('users', JSON.stringify(users));
-  }
-
-  function addUser(username, email, password) {
-    const users = getUsers();
-    users.push({ username, email, password });
-    saveUsers(users);
-  }
-
-  document.addEventListener('DOMContentLoaded', function() {
-    const signUpForm = document.querySelector('form');
-
-    signUpForm.addEventListener('submit', function(event) {
-      event.preventDefault();
-
-      const username = signUpForm.querySelector('#username').value;
-      const email = signUpForm.querySelector('#email').value;
-      const password = signUpForm.querySelector('#password').value;
-
-      addUser(username, email, password);
-
-      window.location.href = '/#/';
-    });
-  });
   </script>
 
   <style>

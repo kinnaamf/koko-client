@@ -31,6 +31,7 @@
         </div>
       </div>
     </div>
+    <ScrollButton/>
     <Footer />
   </div>
 </template>
@@ -39,11 +40,12 @@
 import Speakers from '@/images/speakers/speakers.json';
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-
+import ScrollButton from "@/components/ScrollButton.vue"
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    ScrollButton
   },
   data() {
     return {

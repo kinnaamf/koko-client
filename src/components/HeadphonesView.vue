@@ -121,6 +121,7 @@
         </div>
       </div>
     </div>
+    <ScrollButton/>
     <Footer />
   </div>
 </template>
@@ -130,11 +131,12 @@ import Headphones from '@/images/headphones/headphones.json'
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import header from "@/components/Header.vue";
-
+import ScrollButton from "@/components/ScrollButton.vue"
 export default {
   components: {
     Header,
-    Footer
+    Footer,
+    ScrollButton
   },
   data() {
     return {

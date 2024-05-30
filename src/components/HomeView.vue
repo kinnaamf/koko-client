@@ -1,6 +1,5 @@
 <template>
   <Header/>
-  <CartHeader />
   <div class="bg-dark-marsh text-white flex flex-col overflow-x-hidden">
     <div class="max-sm:h-[392px] max-sm:bg-center bg-[url('https://cdn.mos.cms.futurecdn.net/hrBDrVTe4KmHkDSgmKM58k-1200-80.jpg')] w-screen h-screen bg-no-repeat bg-cover overflow-clip overflow-hidden"></div>
     <div class="px-40 flex flex-col self-center">
@@ -124,19 +123,19 @@
       </div>
     </div>
   </div>
-  <Footer />
+  <ScrollButton/>
+  <Footer/>
 </template>
 
 <script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue"
-import CartView from "@/components/CartView.vue";
-
+import ScrollButton from "@/components/ScrollButton.vue"
 export default {
   components: {
     Header,
     Footer,
-    CartView
+    ScrollButton
   }
 }
 </script>

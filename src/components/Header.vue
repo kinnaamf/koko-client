@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="uppercase max-sm:px-4 px-40 flex justify-between items-center h-8" style="background: #27272A">
+    <div class="uppercase max-sm:px-4 px-40 flex flex-wrap text-nowrap justify-between items-center h-8" style="background: #27272A">
       <div class="text-l max-sm:text-sm">
         <h3 style="color: #71717A">Fast Global Shipping</h3>
       </div>
@@ -8,22 +8,23 @@
         <div>
           <a class="uppercase text-l max-sm:text-sm max-sm:hidden" style="color: #71717A" href="/#/login">{{ getUsername }}</a>
         </div>
-        <div>
-          <button class="uppercase text-l max-sm:text-sm" style="color: #71717A" type="button">United Kingdom | English</button>
+        <div class="bg-transparent text-[#71717A]">
+          <select name="select" class="appearance-none bg-transparent uppercase" id="select" @change="changeLocale">
+          <option value="en" :selected="currentLocale === 'en'">United Kingdom | English</option>
+            <option value="ro" :selected="currentLocale === 'ro'">România | Română</option>
+          </select>
         </div>
       </div>
     </div>
-    <div class="h-10 flex items-center px-40 justify-between max-sm:hidden" style="background-color: #F9FAFB">
+    <div class="h-10 flex items-center px-40 justify-between max-sm:hidden max-lg:hidden" style="background-color: #F9FAFB">
       <div>
         <a href="/homepage">
-          <svg width="58" height="20" viewBox="0 0 58 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M12.588 19.312L5.364 13.384L3.996 14.872L3.852 19H0.9L0.276 0.279999H4.476L4.092 12.016L7.956 5.32L12.132 6.04L7.716 10.84L12.828 19.312H12.588ZM27.7963 12.328C27.7963 13.384 27.5803 14.344 27.1483 15.208C26.7163 16.056 26.1483 16.784 25.4443 17.392C24.7403 18 23.9803 18.472 23.1643 18.808C22.3483 19.128 21.5563 19.288 20.7883 19.288C20.0203 19.288 19.2283 19.128 18.4123 18.808C17.5963 18.472 16.8283 18 16.1083 17.392C15.4043 16.784 14.8283 16.056 14.3803 15.208C13.9483 14.344 13.7323 13.384 13.7323 12.328C13.7323 11.272 13.9483 10.312 14.3803 9.448C14.8283 8.584 15.4043 7.848 16.1083 7.24C16.8283 6.616 17.5963 6.144 18.4123 5.824C19.2283 5.488 20.0203 5.32 20.7883 5.32C21.5563 5.32 22.3483 5.488 23.1643 5.824C23.9803 6.144 24.7403 6.616 25.4443 7.24C26.1483 7.848 26.7163 8.584 27.1483 9.448C27.5803 10.312 27.7963 11.272 27.7963 12.328ZM21.5083 17.56C22.3563 17.56 23.0043 17.256 23.4523 16.648C23.9003 16.024 24.1243 14.904 24.1243 13.288C24.1243 11.848 23.9003 10.672 23.4523 9.76C23.0203 8.848 22.4923 8.184 21.8683 7.768C21.2443 7.336 20.6443 7.12 20.0683 7.12C19.5083 7.12 19.0283 7.248 18.6283 7.504C18.2283 7.76 17.9243 8.2 17.7163 8.824C17.5083 9.432 17.4043 10.28 17.4043 11.368C17.4043 12.344 17.5323 13.216 17.7883 13.984C18.0603 14.752 18.4043 15.408 18.8203 15.952C19.2363 16.48 19.6763 16.88 20.1403 17.152C20.6203 17.424 21.0763 17.56 21.5083 17.56ZM42.7989 19.312L35.5749 13.384L34.2069 14.872L34.0629 19H31.1109L30.4869 0.279999H34.6869L34.3029 12.016L38.1669 5.32L42.3429 6.04L37.9269 10.84L43.0389 19.312H42.7989ZM58.0073 12.328C58.0073 13.384 57.7913 14.344 57.3593 15.208C56.9273 16.056 56.3593 16.784 55.6553 17.392C54.9513 18 54.1913 18.472 53.3753 18.808C52.5593 19.128 51.7673 19.288 50.9993 19.288C50.2313 19.288 49.4393 19.128 48.6233 18.808C47.8073 18.472 47.0393 18 46.3193 17.392C45.6153 16.784 45.0393 16.056 44.5913 15.208C44.1593 14.344 43.9433 13.384 43.9433 12.328C43.9433 11.272 44.1593 10.312 44.5913 9.448C45.0393 8.584 45.6153 7.848 46.3193 7.24C47.0393 6.616 47.8073 6.144 48.6233 5.824C49.4393 5.488 50.2313 5.32 50.9993 5.32C51.7673 5.32 52.5593 5.488 53.3753 5.824C54.1913 6.144 54.9513 6.616 55.6553 7.24C56.3593 7.848 56.9273 8.584 57.3593 9.448C57.7913 10.312 58.0073 11.272 58.0073 12.328ZM51.7193 17.56C52.5673 17.56 53.2153 17.256 53.6633 16.648C54.1113 16.024 54.3353 14.904 54.3353 13.288C54.3353 11.848 54.1113 10.672 53.6633 9.76C53.2313 8.848 52.7033 8.184 52.0793 7.768C51.4553 7.336 50.8553 7.12 50.2793 7.12C49.7193 7.12 49.2393 7.248 48.8393 7.504C48.4393 7.76 48.1353 8.2 47.9273 8.824C47.7193 9.432 47.6153 10.28 47.6153 11.368C47.6153 12.344 47.7433 13.216 47.9993 13.984C48.2713 14.752 48.6153 15.408 49.0312 15.952C49.4473 16.48 49.8873 16.88 50.3513 17.152C50.8313 17.424 51.2873 17.56 51.7193 17.56Z" fill="#030712"/>
-          </svg>
+          <img src="/src/assets/logo.svg" alt="Koko">
         </a>
       </div>
       <div class="flex max-sm:flex-row gap-10 max-sm:gap-10 items-center">
         <div class="flex max-sm:flex-none">
-          <ul class="flex flex-wrap max-sm:flex-nowrap gap-4 max-sm:gap-5 font-medium uppercase text-l max-sm:text-sm">
+          <ul class="flex text-nowrap max-sm:flex-nowrap gap-4 max-sm:gap-5 font-medium uppercase text-l max-sm:text-sm">
             <li><a href="" class="pointer-events-none text-zinc-500">{{ $t('header_stores') }}</a></li>
             <li><a href="/#/categories">{{ $t('header_categories') }}</a></li>
             <li><a href="/#/audio-devices">{{ $t('header_audio') }}</a></li>
@@ -49,13 +50,24 @@
               <label for="">
                 <input type="text" placeholder="Search" class="focus:outline-0 font-medium w-[400px]" v-model="showItems">
               </label>
+              <div class="search-result flex flex-col gap-3" v-show="showItems && filteredItems.length">
+                <a class="ml-3 text-zinc-500" href="/#/search">Products ({{ filteredItems.length }})</a>
+                <ul class="grid grid-cols-6 gap-10 justify-between">
+                  <li v-for="item in filteredItems" class=" w-[150px]" :key="item.id">
+                    <a :href="getItemUrl(item)">
+                      <img :src="getImagePath(item)" alt="image" class="w-[150px] h-[150px]">
+                      <h2 class="font-medium">{{ item.name }}</h2>
+                      <h2>{{item.price}}</h2>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
             <div class="flex">
-              <button>
+              <button @click="makeVisible">
                 <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1.5 1.5L25.5 25.5M1.5 25.5L25.5 1.5" stroke="black" stroke-width="2"/>
                 </svg>
-
               </button>
             </div>
           </div>
@@ -70,7 +82,7 @@
         </div>
       </div>
     </div>
-    <div class="max-sm:visible relative z-10">
+    <div class="max-sm:visible max-lg:visible relative z-10">
       <div class="hidden bg-transparent max-sm:flex justify-start items-start absolute">
         <div class="bg-white max-sm:w-screen p-2 pr-3 flex flex-col gap-3">
           <div class="flex items-center gap-3 justify-between">
@@ -114,21 +126,25 @@
         </div>
       </div>
     </div>
-    <div class="hidden search-result"></div>
   </header>
 </template>
-
 <script>
-import {cartStore} from "@/store/cartStore.js";
+import { cartStore } from "@/store/cartStore.js";
+import Items from "/src/images/items.json"
 
-let search = document.querySelector('.search');
 export default {
   setup() {
-    return cartStore
+    return { cartStore };
   },
   name: 'Header',
+  data() {
+    return {
+      isMenuOpen: false,
+      Items,
+      showItems: ''
+    }
+  },
   computed: {
-
     getUsername() {
       const usersJson = localStorage.getItem('users');
       if (usersJson) {
@@ -140,28 +156,107 @@ export default {
     },
     cartStore() {
       return cartStore
-    }
-  },
-  data() {
-    return {
-      isMenuOpen: false,
+    },
+    filteredItems() {
+      return this.Items.filter(item => item.name.toLowerCase().includes(this.showItems.toLowerCase()));
     }
   },
   methods: {
+    getImagePath(item) {
+      let basePath = '';
+
+      switch (item.category) {
+        case 'Amps':
+          basePath = 'src/images/amps';
+          break;
+        case 'Cameras':
+          basePath = 'src/images/cameras';
+          break;
+        case 'Headphones':
+          basePath = 'src/images/headphones';
+          break;
+        case 'Speakers':
+          basePath = 'src/images/speakers';
+          break;
+        case 'Videocameras':
+          basePath = 'src/images/videocameras';
+          break;
+        default:
+          basePath = 'src/images';
+      }
+
+      return `${basePath}/${item.image}`;
+    },
+    getCategory(item) {
+      const id = item.id;
+
+      if (id >= 0 && id <= 10) {
+        return 'amps';
+      } else if (id >= 16 && id <= 33) {
+        return 'headphones';
+      } else if (id >= 34 && id <= 56) {
+        return 'speakers';
+      } else if (id >= 57 && id <= 63) {
+        return 'videocameras';
+      } else if (id >= 11 && id <= 15) {
+        return 'cameras';
+      } else {
+        return 'other';
+      }
+    },
+    getItemUrl(item) {
+      switch (this.getCategory(item)) {
+        case 'amps':
+          return `/#/amps/item/${item.id}`;
+        case 'headphones':
+          return `/#/headphones/item/${item.id}`;
+        case 'speakers':
+          return `/#/speakers/item/${item.id}`;
+        case 'videocameras':
+          return `/#/videocameras/item/${item.id}`;
+        case 'cameras':
+          return `/#/cameras/item/${item.id}`;
+        default:
+          return '#';
+      }
+    },
     toggleMenu() {
       this.isMenuOpen = !this.isMenuOpen;
     },
     makeVisible() {
-      let x =  document.querySelector('.typo')
-      x.classList.toggle('hidden')
-      x.classList.add('duration-100')
-    }
+      let x = document.querySelector('.typo');
+      x.classList.toggle('hidden');
+      x.classList.add('duration-100');
+    },
   },
-
+  created() {
+  }
 }
-
 </script>
 
-<style scoped>
 
+<style scoped>
+.search-result {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ddd;
+  height: auto;
+  z-index: 1000;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  width: 1560px;
+  overflow:scroll;
+}
+
+.search-result li:last-child {
+  border-bottom: none;
+}
+.search-result li:hover {
+  background-color: #f5f5f5;
+  cursor: pointer;
+}
+#select {
+  border: none !important;
+  outline:none !important;
+}
 </style>
