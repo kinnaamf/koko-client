@@ -18,8 +18,8 @@
                     <div class="row gy-3 overflow-hidden">
                       <div class="col-12">
                         <div class="form-floating mb-3">
-                          <input type="email" class="form-control border-0 border-bottom rounded-0" name="email" id="email" placeholder="name@example.com" required>
-                          <label for="email" class="form-label">Email</label>
+                          <input type="username" class="form-control border-0 border-bottom rounded-0" name="email" id="email" placeholder="name@example.com" required>
+                          <label for="username" class="form-label">Username</label>
                         </div>
                       </div>
                       <div class="col-12">
@@ -47,7 +47,7 @@
                       </div>
                       <div class="col-12">
                         <div class="d-grid">
-                          <button class="btn btn-lg btn-dark rounded-0 fs-6" type="submit"><a href="/#/homepage">Log in</a></button>
+                          <button class="btn btn-lg btn-dark rounded-0 fs-6" type="submit"><a href="/#/">Log in</a></button>
                         </div>
                       </div>
                     </div>
@@ -92,7 +92,14 @@
 </template>
 
 <script>
-
+function checkUserExists() {
+  const usersJson = localStorage.getItem('users');
+  if (usersJson) {
+    const users = JSON.parse(usersJson);
+    return users.length > 0;
+  }
+  return false;
+}
 </script>
 
 <style>

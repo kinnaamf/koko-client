@@ -18,17 +18,17 @@
                     <div class="row gy-3 overflow-hidden">
                       <div class="col-12">
                         <div class="form-floating mb-3">
-                          <input type="text" v-model="username" @input="getUsername" class="form-control border-0 border-bottom rounded-0" name="username" id="username" placeholder="name@example.com" required>
+                          <input type="text" class="form-control border-0 border-bottom rounded-0" name="username" id="username" placeholder="name@example.com" required>
                           <label for="username" class="form-label">Username</label>
                         </div>
                         <div class="form-floating mb-3">
-                          <input type="text" v-model="email" @input="getEmail" class="form-control border-0 border-bottom rounded-0" name="email" id="email" placeholder="name@example.com" required>
+                          <input type="text" class="form-control border-0 border-bottom rounded-0" name="email" id="email" placeholder="name@example.com" required>
                           <label for="email" class="form-label">Email</label>
                         </div>
                       </div>
                       <div class="col-12">
                         <div class="form-floating mb-3">
-                          <input type="password" v-model="password" @input="getPassword" class="form-control border-0 border-bottom rounded-0" name="password" id="password" value="" placeholder="Password" required>
+                          <input type="password" class="form-control border-0 border-bottom rounded-0" name="password" id="password" value="" placeholder="Password" required>
                           <label for="password" class="form-label">Password</label>
                         </div>
                       </div>
@@ -51,7 +51,7 @@
                       </div>
                       <div class="col-12">
                         <div class="d-grid">
-                          <button class="btn btn-lg btn-dark rounded-0 fs-6" type="submit"><a href="/#/homepage">Register</a></button>
+                          <button class="btn btn-lg btn-dark rounded-0 fs-6" type="submit"><a href="">Register</a></button>
                         </div>
                       </div>
                     </div>
@@ -94,35 +94,37 @@
       </section>
     </div>
   </template>
-
   <script>
-    export default {
-      data() {
-        return {
-          username: '',
-          email: '',
-          password: '',
-        }
-      },
-      methods: {
-        getUsername() {
-          return this.username
-        },
-        getEmail() {
-          return this.email
-        },
-        getPassword() {
-          return this.password
-        },
-        getData() {
-          let username = this.username
-          let email = this.email
-          let password = this.password
+  function getUsers() {
+    const usersJSON = localStorage.getItem('users');
+    return usersJSON ? JSON.parse(usersJSON) : [];
+  }
 
-          console.log(username, email, password)
-        }
-      }
-    }
+  function saveUsers(users) {
+    localStorage.setItem('users', JSON.stringify(users));
+  }
+
+  function addUser(username, email, password) {
+    const users = getUsers();
+    users.push({ username, email, password });
+    saveUsers(users);
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const signUpForm = document.querySelector('form');
+
+    signUpForm.addEventListener('submit', function(event) {
+      event.preventDefault();
+
+      const username = signUpForm.querySelector('#username').value;
+      const email = signUpForm.querySelector('#email').value;
+      const password = signUpForm.querySelector('#password').value;
+
+      addUser(username, email, password);
+
+      window.location.href = '/#/';
+    });
+  });
   </script>
 
   <style>

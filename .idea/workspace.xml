@@ -5,29 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8ccd046-1f47-405d-857d-870f60a8a60a" name="Changes" comment="do skorih vstre4">
-      <change afterPath="$PROJECT_DIR$/src/components/allItems.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/cartStore.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-VID4RN2V.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-VID4RN2V.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-VID4RN2V.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-VID4RN2V.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-i18n.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-i18n.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AmpsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AmpsView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/vvv.mp4" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/CartView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeadphonesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadphonesView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ItemView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PhotoCamerasVies.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhotoCamerasVies.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SpeakersView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SpeakersView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LoginView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LoginView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/RegisterView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/RegisterView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/allItems.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/allItems.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconCommunity.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconDocumentation.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconEcosystem.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconSupport.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/icons/IconTooling.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/images/amps/amps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/amps/amps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/headphones/headphones.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/headphones/headphones.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/cameras/cameras.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/cameras/cameras.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo.svg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Composition API Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -68,25 +65,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/kinnaamf/Desktop/practice/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kinnaamf\Desktop\practice\public" />
+      <recent name="C:\Users\kinnaamf\Desktop\practice\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kinnaamf\Desktop\practice\public" />
+      <recent name="C:\Users\kinnaamf\Desktop\practice\src\assets" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -109,7 +118,7 @@
       <workItem from="1716839495461" duration="1669000" />
       <workItem from="1716842987915" duration="1629000" />
       <workItem from="1716862038751" duration="8228000" />
-      <workItem from="1716948445204" duration="8962000" />
+      <workItem from="1716948445204" duration="22516000" />
     </task>
     <task id="LOCAL-00001" summary="do skorih vstre4">
       <option name="closed" value="true" />

@@ -52,7 +52,8 @@ import Amps from '@/images/amps/amps.json';
 import Headphones from '@/images/headphones/headphones.json';
 import Speakers from '@/images/speakers/speakers.json';
 import Cameras from '@/images/cameras/cameras.json';
-import Action from '@/images/videocameras/video.json'
+import Action from '@/images/videocameras/video.json';
+import { cartStore } from '@/store/cartStore';
 
 export default {
   components: {
@@ -88,18 +89,7 @@ export default {
   },
   methods: {
     toCart() {
-      let cartItems = JSON.parse(localStorage.getItem('cart')) || [];
-
-      const exists = cartItems.findIndex(item => item.id === this.item.id);
-
-      if (exists !== -1) {
-        cartItems[exists].quantity++;
-      } else {
-        this.item.quantity = 1;
-        cartItems.push(this.item);
-      }
-
-      localStorage.setItem('cart', JSON.stringify(cartItems));
+      cartStore.addToCart(this.item);
     },
     loadItem() {
       let items;
@@ -126,10 +116,9 @@ export default {
       if (this.item.name) {
         document.title = this.item.name;
       }
-      console.log(this.item.name)
     }
   }
-}
+};
 </script>
 
 <style scoped>

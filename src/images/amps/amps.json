@@ -62,7 +62,7 @@
   {
     "id": 6,
     "name": "STUDIO JTM HEAD",
-    "price": "FROM $ 949",
+    "price": "$ 949",
     "color": "Black and Brass",
     "description": "From its legendary warm and smooth tone to blending the voices for a combination of crunch and clean, the Studio JTM brings the outstanding sound that Marshall is so well known for. The smaller scale of the Studio JTM gives players the power of the authentic Marshall tone, in a more compact design.",
     "image": "studiojtm.png",
@@ -77,7 +77,7 @@
   {
     "id": 8,
     "name": "STUDIO CLASSIC HEAD",
-    "price": "FROM $ 949",
+    "price": "$ 949",
     "color": "Black and Brass",
     "description": "The Studio Classic is loaded with all the player-friendly features you need, including a master volume, 3-band EQ with Presence control, preamp volume, effects loop, and DI output. You also get a power reduction circuit for attaining cranked-up tones without violating a noise ordinance.",
     "image": "studioclassic.png",
@@ -87,7 +87,7 @@
   {
     "id": 9,
     "name": "MIDDLETON BLACK AND BRASS",
-    "price": "FROM $ 1,099",
+    "price": "$ 1099",
     "color": "Black and Brass",
     "description": "The Studio Classic is loaded with all the player-friendly features you need, including a master volume, 3-band EQ with Presence control, preamp volume, effects loop, and DI output. You also get a power reduction circuit for attaining cranked-up tones without violating a noise ordinance.",
     "image": "middleton.png",
@@ -97,7 +97,7 @@
   {
     "id": 10,
     "name": "JCM800 2203 VINTAGE REISSUE HEAD",
-    "price": "FROM $ 1,869",
+    "price": "$ 1869",
     "color": "Black and Brass",
     "description": "The Marshall JCM800 2203 Guitar Tube Amplifier Head is a one channel, all valve amplifier with no reverb or built-in effects. The Marshall JCM800 2203 Amplifier Head features an easy to use interface and a Series Effects Loop with a true bypass switch, this takes the loop completely out of the circuit.",
     "image": "jcm800.png",
