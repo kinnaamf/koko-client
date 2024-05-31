@@ -1,8 +1,8 @@
 import {createI18n} from "vue-i18n";
 import {getLocale} from "./utils.js";
 
-import en from "./translations/en.json";
-import ro from "./translations/ro.json";
+import en from "../translations/en.json";
+import ro from "../translations/ro.json";
 
 const translations = {
     en, ro

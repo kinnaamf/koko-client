@@ -1,0 +1,196 @@
+[
+  {
+    "id": 16,
+    "name": "MAJOR V BLACK",
+    "price": "$ 149",
+    "color": "Black",
+    "type": "On-Ear",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "majorv-black.png",
+    "description": "Marshall has launched the long-awaited Major V wireless headphones and Minor IV TWS earbuds. The products come years after their predecessors hit the market. The Marshall Major IV came in 2020, while the Minor III launched in 2021. So the refreshed lineup has been long overdue.",
+    "shortDescription": "Marshall Premium Sound",
+    "rating": 4.8
+  },
+  {
+    "id": 17,
+    "image": "image-3.png"
+  },
+  {
+    "id": 18,
+    "name": "MAJOR IV BLACK",
+    "price": "$ 129",
+    "color": "Black",
+    "type": "On-Ear",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "majoriv-black.png",
+    "description": "Major IV delivers the signature Marshall sound that you've come to expect. Over 60 years of knowledge is packed into Major IV for an explosive sound. Custom-tuned dynamic drivers deliver roaring bass, smooth mids and brilliant treble for a rich, unrivalled sound that you'll never want to turn off.",
+    "shortDescription": "Marshall Premium Sound",
+    "rating": 2.8
+  },
+  {
+    "id": 19,
+    "name": "MAJOR IV BROWN",
+    "price": "$ 129",
+    "color": "Brown",
+    "type": "On-Ear",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "majoriv-brown.png",
+    "description": "Major IV delivers the signature Marshall sound that you've come to expect. Over 60 years of knowledge is packed into Major IV for an explosive sound. Custom-tuned dynamic drivers deliver roaring bass, smooth mids and brilliant treble for a rich, unrivalled sound that you'll never want to turn off.",
+    "shortDescription": "Marshall Premium Sound",
+    "rating": 4.8
+  },
+  {
+    "id": 20,
+    "name": "MONITOR II A.N.C. BLACK",
+    "price": "$ 299",
+    "color": "Black",
+    "type": "On-Ear",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "monitoriianc-black.png",
+    "description": "The Monitor II ANC are an over-ear model that offers up to 30 hours of playtime with the active noise cancelling activated while the Mid ANC are an on-ear model that offers up to 20 hours of wireless playtime with the active noise cancelling activated.",
+    "shortDescription": "Marshall Premium Sound",
+    "rating": 4.8
+  },
+  {
+    "id": 21,
+    "name": "MODE",
+    "price": "$ 59",
+    "color": "Black",
+    "type": "Earbuds",
+    "connectionType": "Wire/Mini-Jack 3.5mm",
+    "image": "mode.png",
+    "description":"Mode delivers huge sound in a small package. Custom-tuned dynamic drivers produce rich, powerful audio. Mode's unique design anchors to your ear and the four ear tip sizes allow you to find the right fit for you.",
+    "shortDescription": "Marshall Premium Sound",
+    "rating": 2.8
+  },
+  {
+    "id": 22,
+    "image": "image-2.png",
+    "description": ""
+  },
+  {
+    "id": 23,
+    "name": "MODE EQ",
+    "price": "$ 59",
+    "color": "Black and Gold",
+    "type": "Earbuds",
+    "connectionType": "Wire/Mini-Jack 3.5mm",
+    "image": "mode-eq.png",
+    "shortDescription": "Marshall Premium Sound",
+    "description": "Mode EQ offers a huge sound in a small package - featuring customized drivers delivering high-output sound at minimal distortion. The unique in-ear design anchors to your ear, while still providing a comfortable fit featuring interchangeable size sleeves in S, M, L, and XL ensure a custom fit.",
+    "rating": 3.1
+  },
+  {
+    "id": 24,
+    "name": "APPLE AIRPODS 2 WHITE",
+    "price": "$ 299",
+    "color": "White",
+    "type": "Earbuds",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "airpods2-white.png",
+    "shortDescription": "Marshall Premium Sound",
+    "description": "With plenty of talk and listen time, voice-activated Siri access, and an available wireless charging case, AirPods deliver an incredible wireless headphone experience. Simply take them out and they're ready to use with all your devices.",
+    "rating": 2.9
+  },
+  {
+    "id": 25,
+    "name": "APPLE AIRPODS MAX SPACE",
+    "price": "$ 759",
+    "color": "Space",
+    "type": "On-Ear",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "airpodsmax-space.png",
+    "shortDescription": "Marshall Premium Sound",
+    "description": "AirPods Max combine high-fidelity audio with industry-leading Active Noise Cancellation to deliver an unparalleled listening experience. Each part of their custom-built driver works to produce sound with ultra-low distortion across the audible range.",
+    "rating": 4.8
+  },
+  {
+    "id": 26,
+    "name": "APPLE AIRPODS MAX SILVER",
+    "price": "$ 759",
+    "color": "Silver",
+    "type": "On-Ear",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "airpodsmax-silver.png",
+    "shortDescription": "Marshall Premium Sound",
+    "description": "AirPods Max combine high-fidelity audio with industry-leading Active Noise Cancellation to deliver an unparalleled listening experience. Each part of their custom-built driver works to produce sound with ultra-low distortion across the audible range.",
+    "rating": 4.8
+  },
+  {
+    "id": 27,
+    "name": "APPLE AIRPODS 3 WHITE MAGSAFE",
+    "price": "$ 759",
+    "color": "White",
+    "type": "On-Ear",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "airpods3-white.png",
+    "shortDescription": "Marshall Premium Sound",
+    "description": "AirPods (3rd generation) are sweat and water resistant for non-water sports and exercise, and are IPX4 rated. Sweat and water resistance are not permanent conditions. Size and weight vary by configuration and manufacturing process. Battery life depends on device settings, environment, usage and many other factors.",
+    "rating": 4.8
+  },
+  {
+    "id": 28,
+    "name": "EMBERTON II BLACK",
+    "price": "$ 129",
+    "color": "Black",
+    "type": "Earbuds",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "embertonii-black.png",
+    "shortDescription": "Marshall Premium Sound",
+    "description": "Emberton II offers 30+ hours of portable playtime on a single charge. Its compact size, rugged durability and reliable playtime, make it perfect to take with you. When you're out of battery, Emberton II won't keep you waiting long – plug in your speaker and return to full battery in 3 hours.",
+    "rating": 4.8
+  },
+
+  {
+    "id": 29,
+    "name": "MINOR III BLACK",
+    "price": "$ 99",
+    "color": "Black",
+    "type": "Earbuds",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "minoriii-black.png",
+    "shortDescription": "Marshall Premium Sound",
+    "description": "\nMinor III has powerful 12 mm drivers, custom-tuned to deliver enhanced bass, smooth mids and clear highs. The earbuds are IPX4-rated, which means they are resistant to being splashed with water, e.g., rain. They cannot be rinsed or fully submerged under water.",
+    "rating": 4.8
+  },
+  {
+    "id": 30,
+    "image": "image-1.png"
+  },
+  {
+    "id": 31,
+    "name": "MINOR III BURGUNDY",
+    "price": "$ 99",
+    "color": "Burgundy",
+    "type": "Earbuds",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "minoriii-burgundy.png",
+    "shortDescription": "Marshall Premium Sound",
+    "description": "\nMinor III has powerful 12 mm drivers, custom-tuned to deliver enhanced bass, smooth mids and clear highs. The earbuds are IPX4-rated, which means they are resistant to being splashed with water, e.g., rain. They cannot be rinsed or fully submerged under water.",
+    "rating": 4.8
+  },
+  {
+    "id": 32,
+    "name": "MINOR III CREAM",
+    "price": "$ 99",
+    "color": "Cream",
+    "type": "Earbuds",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "minoriii-cream.png",
+    "shortDescription": "Marshall Premium Sound",
+    "description": "\nMinor III has powerful 12 mm drivers, custom-tuned to deliver enhanced bass, smooth mids and clear highs. The earbuds are IPX4-rated, which means they are resistant to being splashed with water, e.g., rain. They cannot be rinsed or fully submerged under water.",
+    "rating": 4.8
+  },
+  {
+    "id": 33,
+    "name": "MOTIF II A.N.C. BLACK",
+    "price": "$ 299",
+    "color": "Black",
+    "type": "Earbuds",
+    "connectionType": "Bluetooth/Wireless",
+    "image": "motifiianc-black.png",
+    "shortDescription": "Marshall Premium Sound",
+    "description": "The Marshall Motif II ANC lives up to the brand's legacy with a luxurious design and impressive sound quality. The textured leather case and metallic earbuds exude quality, while the sound profile leans towards a neutral balance. Some audio brands pass on a lot of confidence to customers with just their name.",
+    "rating": 2.7
+  }
+]

@@ -5,33 +5,265 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8ccd046-1f47-405d-857d-870f60a8a60a" name="Changes" comment="do skorih vstre4">
-      <change afterPath="$PROJECT_DIR$/src/components/LangSwitcher.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/i18n.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/en.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/translations/ro.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/actioniii-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/actioniii-brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/actioniii-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/airpods2-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/airpods3-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/airpodsmax-silver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/airpodsmax-space.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/alpha-6700.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/alpha-7-III.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/alpha-7-cr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/alpha-9-III.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/amps.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/images-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/jcm800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/mg10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/mg15g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/mg15gfx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/mg15gr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/mg30gfx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/mg500fx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/middleton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/studioclassic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/amps/studiojtm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cameras/alpha-6700.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cameras/alpha-7-III.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cameras/alpha-7-cr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cameras/alpha-9-III.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cameras/cameras.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/cameras/images-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/embertonii-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/embertonii-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/embertonii-blackandsteel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/embertonii-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/airpods2-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/airpods3-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/airpodsmax-silver.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/airpodsmax-space.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/embertonii-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/headphones.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/image-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/image-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/image-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/majoriv-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/majoriv-brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/majorv-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/minoriii-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/minoriii-burgundy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/minoriii-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/mode-eq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/monitoriianc-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/headphones/motifiianc-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hero-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hero-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hero-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hero-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hero-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/hero-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/items.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/jbl-party-box-club-120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/jbl-party-club-320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/jbl-party-ultimate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/jcm800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/kilburn-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/kilburn-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/majoriv-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/majoriv-brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/majorv-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mg10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mg15g.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mg15gfx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mg15gr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mg30gfx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mg500fx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/middleton-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/middleton-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/middleton.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/minoriii-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/minoriii-burgundy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/minoriii-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mode-eq.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mode.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/monitoriianc-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/motifiianc-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/actioniii-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/actioniii-brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/actioniii-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/embertonii-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/embertonii-blackandsteel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/embertonii-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/images-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/images-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/jbl-party-box-club-120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/jbl-party-club-320.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/jbl-party-ultimate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/kilburn-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/kilburn-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/middleton-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/middleton-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/speakers.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/stanmoreiii-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/stanmoreiii-brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/stanmoreiii-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/stockwell-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/tufton-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/tufton-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/willen-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/willen-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/woburniii-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/speakers/woburniii-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/stanmoreiii-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/stanmoreiii-brown.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/stanmoreiii-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/stockwell-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/studioclassic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/studiojtm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/tufton-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/tufton-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video/hero-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video/hero-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video/hero-12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video/hero-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video/hero-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video/hero-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video/images-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/video/video.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/willen-blackandbrass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/willen-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/woburniii-black.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/woburniii-cream.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/__VLS_template.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/autoprefixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/browserslist" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/browserslist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/browserslist.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/browserslist.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cssesc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/cssesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cssesc.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cssesc.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esbuild" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/esbuild" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esbuild.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/esbuild.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/glob" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/glob" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/glob.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/glob.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jiti" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/jiti" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jiti.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/jiti.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mini-svg-data-uri" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/mini-svg-data-uri" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mini-svg-data-uri.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/mini-svg-data-uri.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nanoid" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/nanoid" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nanoid.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/nanoid.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-which" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/node-which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-which.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-which.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/parser" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/parser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/parser.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/parser.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/resolve" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/resolve" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/resolve.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/resolve.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rollup" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/rollup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rollup.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/rollup.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sucrase" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sucrase" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sucrase-node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/sucrase-node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sucrase-node.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sucrase-node.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sucrase.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/sucrase.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/tailwind" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/tailwind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/tailwind.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/tailwind.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/tailwindcss" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/tailwindcss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/tailwindcss.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/tailwindcss.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/update-browserslist-db" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/update-browserslist-db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/update-browserslist-db.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/update-browserslist-db.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/vite" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/vite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/vite.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/vite.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/yaml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/yaml.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/yaml.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-VID4RN2V.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-VID4RN2V.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-VID4RN2V.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-VID4RN2V.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-VID4RN2V.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-VID4RN2V.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-i18n.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-i18n.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-i18n.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@babel/parser/bin/babel-parser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@babel/parser/bin/babel-parser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@esbuild/win32-x64/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@esbuild/win32-x64/esbuild.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@esbuild/win32-x64/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@intlify/core-base/dist/core-base.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@intlify/core-base/dist/core-base.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@intlify/message-compiler/dist/message-compiler.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@intlify/message-compiler/dist/message-compiler.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@intlify/shared/dist/shared.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@intlify/shared/dist/shared.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@rollup/rollup-win32-x64-msvc/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@rollup/rollup-win32-x64-msvc/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@rollup/rollup-win32-x64-msvc/rollup.win32-x64-msvc.node" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@types/estree/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@types/estree/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/autoprefixer/bin/autoprefixer" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/autoprefixer/bin/autoprefixer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/browserslist/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/browserslist/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/color-name/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/color-name/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/color-name/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/color-name/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/color-name/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/cssesc/bin/cssesc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/cssesc/bin/cssesc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/didyoumean/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/didyoumean/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/esbuild/bin/esbuild" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/esbuild/bin/esbuild" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/fraction.js/fraction.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fraction.js/fraction.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/glob/dist/esm/bin.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/glob/dist/esm/bin.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/jiti/bin/jiti.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/jiti/bin/jiti.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/micromatch/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/micromatch/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/mini-svg-data-uri/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/mini-svg-data-uri/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/nanoid/bin/nanoid.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/nanoid/bin/nanoid.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-import/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-import/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss-import/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss-import/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/postcss/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/postcss/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/queue-microtask/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/queue-microtask/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/read-cache/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-cache/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/read-cache/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/read-cache/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/resolve/bin/resolve" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/resolve/bin/resolve" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/rollup/dist/bin/rollup" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/rollup/dist/bin/rollup" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sucrase/bin/sucrase" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sucrase/bin/sucrase" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sucrase/bin/sucrase-node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sucrase/bin/sucrase-node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/tailwindcss/lib/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/tailwindcss/lib/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/update-browserslist-db/cli.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/update-browserslist-db/cli.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vite/bin/vite.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vite/bin/vite.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vite/dist/node/chunks/dep-DyOjWWe9.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vite/dist/node/chunks/dep-DyOjWWe9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-i18n/dist/vue-i18n.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vue-i18n/dist/vue-i18n.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/vue-router/dist/vue-router.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/vue-router/dist/vue-router.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/which/bin/node-which" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/which/bin/node-which" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi-cjs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/wrap-ansi-cjs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/wrap-ansi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/wrap-ansi/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaml/bin.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yaml/bin.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/yaml/browser/dist/node_modules/tslib/tslib.es6.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/yaml/browser/dist/node_modules/tslib/tslib.es6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/LangSwitcher.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LangSwitcher.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/i18n.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/i18n.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -50,12 +282,13 @@
     &quot;assignee&quot;: &quot;kinnaamf&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/kinnaamf/practice.git",
-    "accountId": "5502f40e-3119-4b22-a17e-3f82abd0f040"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kinnaamf/practice.git&quot;,
+    &quot;accountId&quot;: &quot;5502f40e-3119-4b22-a17e-3f82abd0f040&quot;
   }
-}]]></component>
+}</component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php" />
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -68,29 +301,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/melni/WebstormProjects/practice/src/components&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/home/victor/PhpstormProjects/practice/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/victor/.local/share/JetBrains/Toolbox/apps/phpstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="C:\Users\melni\WebstormProjects\practice\src\components" />
       <recent name="C:\Users\kinnaamf\Desktop\practice\public" />
       <recent name="C:\Users\kinnaamf\Desktop\practice\src\assets" />
@@ -103,7 +337,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
       </set>
     </attachedChunks>
   </component>
@@ -126,6 +361,8 @@
       <workItem from="1717068062070" duration="10249000" />
       <workItem from="1717084530871" duration="20681000" />
       <workItem from="1717121158881" duration="5890000" />
+      <workItem from="1717146273297" duration="2787000" />
+      <workItem from="1717183060882" duration="1750000" />
     </task>
     <task id="LOCAL-00001" summary="do skorih vstre4">
       <option name="closed" value="true" />
