@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8ccd046-1f47-405d-857d-870f60a8a60a" name="Changes" comment="do skorih vstre4">
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/LangSwitcher.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/en.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/translations/ro.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/_metadata.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/chunk-5FTKWRYC.js.map" afterDir="false" />
@@ -20,31 +23,10 @@
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue-router.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.vite/deps/vue.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AmpsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AmpsView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CartView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CartView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeadphonesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadphonesView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ItemView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ItemView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PhotoCamerasVies.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhotoCamerasView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SpeakersView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SpeakersView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/VideoView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoView.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/allItems.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/allItems.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/amps/amps.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/amps/amps.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/cameras/cameras.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/cameras/cameras.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/headphones/headphones.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/headphones/headphones.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/videocameras/hero-10.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/video/hero-10.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/videocameras/hero-11.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/video/hero-11.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/videocameras/hero-12.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/video/hero-12.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/videocameras/hero-3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/video/hero-3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/videocameras/hero-7.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/video/hero-7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/videocameras/hero-8.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/video/hero-8.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/videocameras/images-1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/video/images-1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/videocameras/video.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/video/video.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HomeView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HomeView.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +50,12 @@
     &quot;assignee&quot;: &quot;kinnaamf&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kinnaamf/practice.git&quot;,
-    &quot;accountId&quot;: &quot;528607ad-33e0-4da4-8af5-42ead429a77e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/kinnaamf/practice.git",
+    "accountId": "5502f40e-3119-4b22-a17e-3f82abd0f040"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 5
@@ -86,27 +68,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/melni/WebstormProjects/practice/src/components",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/melni/WebstormProjects/practice/src/components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Program Files\\JetBrains\\WebStorm 2024.1.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "vue.recent.templates": [
-      "Vue Composition API Component"
+  &quot;keyToStringList&quot;: {
+    &quot;vue.recent.templates&quot;: [
+      &quot;Vue Composition API Component&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\melni\WebstormProjects\practice\src\components" />
@@ -143,6 +125,7 @@
       <workItem from="1716948445204" duration="22516000" />
       <workItem from="1717068062070" duration="10249000" />
       <workItem from="1717084530871" duration="20681000" />
+      <workItem from="1717121158881" duration="5890000" />
     </task>
     <task id="LOCAL-00001" summary="do skorih vstre4">
       <option name="closed" value="true" />

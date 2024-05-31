@@ -1,23 +1,17 @@
 <template>
   <header>
     <div class="uppercase max-sm:px-4 max-lg:px-10 px-40 flex flex-wrap text-nowrap justify-between items-center h-8"
-         style="background: #27272A">
+         style="background: #27272A;">
       <div class="text-l max-sm:text-sm">
         <h3 style="color: #71717A">Fast Global Shipping</h3>
       </div>
       <div class="flex gap-5 text-l max-sm:text-sm">
         <div>
-          <a class="uppercase text-l max-sm:text-sm max-sm:hidden" href="/#/login" style="color: #71717A">{{
+          <a class="self-end uppercase text-l max-sm:text-sm max-sm:hidden" href="/#/login" style="color: #71717A">{{
               getUsername
             }}</a>
         </div>
-        <div class="bg-transparent text-[#71717A]">
-          <ul class="locales">
-            <li v-for="locale in locales">
-              <a :class="locale === $i18n.locale ? active : ''" @click="setLocale(locale)"></a>
-            </li>
-          </ul>
-        </div>
+        <LangSwitcher/>
       </div>
     </div>
     <div class="h-10 max-lg:px-5 flex items-center px-40 justify-between xl:flex max-sm:hidden"
@@ -175,8 +169,12 @@
 <script>
 import {cartStore} from "@/store/cartStore.js";
 import Items from "/src/images/items.json"
+import LangSwitcher from "@/components/LangSwitcher.vue";
 
 export default {
+  components: {
+    LangSwitcher
+  },
   setup() {
     return { cartStore, locales: ['ro', 'en'] };
   },

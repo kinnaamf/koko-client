@@ -28,11 +28,28 @@ const routes = [
     { path: '/video-devices', component: VideoView, name: 'Video Devices' },
     { path: '/amps', component: AmpsView, name: 'Amps' },
     { path: '/cameras', component: PhotoCamerasView, name: 'Cameras' },
-    { path: '/headphones', component: HeadphonesView, name: 'Headphones' },
+    { path: '/headphones',component: HeadphonesView, name: 'Headphones' },
     { path: '/speakers', component: SpeakersView, name: 'Speakers' },
     { path: '/video', component: VideoCamerasView, name: 'Action Cameras' },
 ];
-
+/*
+, redirect: '/en'
+, redirect: '/en/cart'
+, redirect: '/en/amps/item/:id'
+, redirect: '/en/headphones/item/:id'
+, redirect: '/en/speakers/item/:id'
+, redirect: '/en/cameras/item/:id'
+, redirect: '/en/video/item/:id'
+, redirect: '/en/categories'
+, redirect: '/en/audio-devices'
+, component: VideoView
+, redirect: '/en/video-devices'
+, redirect: '/en/amps'
+, redirect: '/en/cameras'
+ redirect: '/en/headphones',
+, redirect: '/en/speakers'
+redirect: '/en/video'
+ */
 const router = createRouter({
     history: createWebHashHistory(),
     routes,
