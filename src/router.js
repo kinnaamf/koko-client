@@ -12,6 +12,8 @@ import PhotoCamerasView from '@/components/PhotoCamerasView.vue';
 import HeadphonesView from '@/components/HeadphonesView.vue';
 import SpeakersView from '@/components/SpeakersView.vue';
 import VideoCamerasView from '@/components/VideoCamerasView.vue';
+import About from "@/components/AboutView.vue";
+import AboutView from "@/components/AboutView.vue";
 
 const routes = [
     { path: '/login', component: LoginView, name: 'Koko Login' },
@@ -31,6 +33,7 @@ const routes = [
     { path: '/headphones',component: HeadphonesView, name: 'Headphones' },
     { path: '/speakers', component: SpeakersView, name: 'Speakers' },
     { path: '/video', component: VideoCamerasView, name: 'Action Cameras' },
+    { path: '/about', component: AboutView, name: 'About' },
 ];
 /*
 , redirect: '/en'
