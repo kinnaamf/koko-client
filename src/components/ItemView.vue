@@ -48,11 +48,11 @@
 <script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-import Amps from '@/images/amps/amps.json';
-import Headphones from '@/images/headphones/headphones.json';
-import Speakers from '@/images/speakers/speakers.json';
-import Cameras from '@/images/cameras/cameras.json';
-import Video from '@/images/video/video.json';
+// import Amps from 'http://localhost/koko/images/amps/amps.json';
+// import Headphones from 'http://localhost/koko/images/headphones/headphones.json';
+// import Speakers from 'http://localhost/koko/images/speakers/speakers.json';
+// import Cameras from 'http://localhost/koko/images/cameras/cameras.json';
+// import Video from 'http://localhost/koko/images/video/video.json';
 import { cartStore } from '@/store/cartStore';
 
 export default {

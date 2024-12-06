@@ -319,7 +319,8 @@
     "shortDescription": "Marshall Premium Sound",
     "description": "The Marshall Motif II ANC lives up to the brand's legacy with a luxurious design and impressive sound quality. The textured leather case and metallic earbuds exude quality, while the sound profile leans towards a neutral balance. Some audio brands pass on a lot of confidence to customers with just their name.",
     "rating": 4.8
-  },{
+  },
+  {
   "id": 34,
   "name": "ACTON III BLACK",
   "price": "$ 299",
@@ -328,7 +329,7 @@
   "image": "actioniii-black.png",
   "shortDescription": "Iconic sound",
   "rating": 4.8
-},
+  },
   {
     "id": 35,
     "name": "ACTON III CREAM",

@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header />
-    <div class="max-sm:h-[392px] max-sm:bg-center max-sm:relative w-screen h-screen bg-no-repeat bg-cover bg-[url('https://s3-alpha-sig.figma.com/img/910d/85b8/edf03fa17303a30fcc69cd9edf6cbc6a?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pxQXTgKOcolR1TucDuq3gltuNC15yf7MhIVFC1jGsOeVubkg25pyvgwll9lth2BQAX4zxhJhxBjDndqT~POh5DxWWWI2pzAhWGy9eWzOVpuLWTOIt45apdEM49d-rF4BJ9o31NuswrvzqwHAV5YWrrGEhrKsi4syg3irAmOhBo0KbZ0jK93fx6qfuc5l5NgdpzBAErv-Qpuw91kXXMvUw4ZkoWKFjUUe0Md-Xf7SW4ezEXfUnvhRjHrdiptUBvmxVZLkdGJ~jq6Uv8gC4cWfPzxbYVlT6llMrOPFtvfD8HfuqNNwlgcKt8Yuw3vabCLQ7-JxOgk4QWhiWlgURvMhwg__')]">
-      <h2 class="text-white uppercase text-6xl font-bold absolute top-1/2 left-10">Amps</h2>
+    <div class="max-sm:h-[392px] max-sm:bg-center max-sm:relative w-screen h-screen bg-no-repeat bg-cover bg-[url('http://localhost:81/images/amps/bg.png')]">
+      <h2 class="text-white uppercase text-7xl font-black absolute top-1/2 left-10">Amps</h2>
     </div>
     <div class="bg-footer-dark h-10 flex items-center text-white px-40 max-sm:bg-white" @click="showMe">
       <button class="flex gap-3 bg-white p-2 max-sm:bg-white">
@@ -11,7 +11,7 @@
       </button>
     </div>
     <div class="px-40 py-2 bg-[#232323] max-sm:px-5 flex gap-10 turn text-white uppercase max-sm:flex-col max-sm:justify-center max-sm:px-0 max-sm:w-[430px]">
-      <!-- -->
+      <!-- Фильтры -->
       <div class="flex flex-col">
         <h3 class="text-xl ml-5">Color</h3>
         <div class="flex gap-3 items-center">
@@ -54,7 +54,6 @@
         <span class="text-sm text-gray-500 dark:text-gray-400 absolute start-2/3 -translate-x-1/2 rtl:translate-x-1/2 -bottom-6">$ 1000</span>
         <span class="text-sm text-gray-500 dark:text-gray-400 absolute end-0 -bottom-6">Max ($ 2000)</span>
       </div>
-      <!-- -->
     </div>
     <div class="grid grid-cols-3 text-white bg-neutral-700 max-sm:grid-cols-1">
       <div class="bg-neutral-700">
@@ -83,10 +82,11 @@
 </template>
 
 <script>
-import Amps from '@/images/amps/amps.json';
+import { getItems } from "@/services/ApiService.js";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-import ScrollButton from "@/components/ScrollButton.vue"
+import ScrollButton from "@/components/ScrollButton.vue";
+
 export default {
   components: {
     Header,
@@ -95,7 +95,7 @@ export default {
   },
   data() {
     return {
-      Amps,
+      amps: [],
       filters: {
         color: [],
         price: [],
@@ -105,45 +105,12 @@ export default {
       priceRange: 1000
     };
   },
-  computed: {
-    filteredAmps() {
-      let filtered = this.Amps;
-
-      if (this.filters.color.length > 0) {
-        filtered = filtered.filter(amp => this.filters.color.includes(amp.color));
-      }
-
-      if (this.filters.rating.length > 0) {
-        filtered = filtered.filter(amp => {
-          const rating = parseFloat(amp.rating);
-          if (this.filters.rating.includes('three-more')) {
-            return rating >= 3;
-          } else if (this.filters.rating.includes('three-less')) {
-            return rating < 3;
-          }
-        });
-      }
-
-      if (this.filters.type.length > 0) {
-        filtered = filtered.filter(amp => this.filters.type.includes(amp.type));
-      }
-
-      filtered = filtered.filter(amp => {
-        return String(amp.price).substr(2) <= this.priceRange ;
-      });
-
-      return filtered;
-    }
-  },
   methods: {
-    showMe() {
-      document.querySelector('.turn').classList.toggle('hidden');
-    },
     getImagePath(image) {
-      return (`src/images/amps/${image}`);
+      return (`http://localhost:81/images/amps/${image}`);
     },
     goToItem(item) {
-      this.$router.push({path: `/amps/item/${item.id}`, params: {item}});
+      this.$router.push({ path: `/amps/item/${item.id}`, params: { item } });
     },
     toggleFilter(filterType, value) {
       if (this.filters[filterType].includes(value)) {
@@ -151,10 +118,68 @@ export default {
       } else {
         this.filters[filterType].push(value);
       }
+    },
+    loadItems() {
+      getItems()
+          .then(data => {
+            console.log('Received items:', data); // Отладка
+            this.amps = data;
+          })
+          .catch(error => {
+            console.error('Error loading items:', error);
+          });
+    }
+  },
+  created() {
+    this.loadItems();
+  },
+  computed: {
+    filteredAmps() {
+      let filtered = this.amps;
+
+      // Проверка на наличие amps (если это массив)
+      if (!Array.isArray(filtered)) {
+        console.error('Expected amps to be an array, but got:', filtered);
+        return [];
+      }
+
+      // Фильтрация по цвету
+      if (this.filters.color && this.filters.color.length > 0) {
+        filtered = filtered.filter(amp => this.filters.color.includes(amp.color));
+      }
+
+      // Фильтрация по рейтингу
+      if (this.filters.rating && this.filters.rating.length > 0) {
+        filtered = filtered.filter(amp => {
+          const rating = parseFloat(amp.rating);
+
+          if (this.filters.rating.includes('three-more')) {
+            return rating >= 3;
+          } else if (this.filters.rating.includes('three-less')) {
+            return rating < 3;
+          }
+
+          return true; // если не включены фильтры, возвращаем всё
+        });
+      }
+
+      // Фильтрация по типу
+      if (this.filters.type && this.filters.type.length > 0) {
+        filtered = filtered.filter(amp => this.filters.type.includes(amp.type));
+      }
+
+      // Фильтрация по цене
+      if (this.priceRange !== undefined && this.priceRange !== null) {
+        filtered = filtered.filter(amp => amp.price <= this.priceRange);
+      }
+
+      return filtered;
     }
   }
+
 }
 </script>
 
-<style>
+<style scoped>
+
 </style>

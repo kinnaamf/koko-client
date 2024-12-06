@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header />
-    <div class="max-sm:h-[392px] max-sm:bg-center max-sm:relative w-screen h-screen bg-no-repeat bg-cover bg-center bg-[url('https://s3-alpha-sig.figma.com/img/c173/5350/e52d9cc33b976b60938e70d0f985de92?Expires=1717977600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=HCOQK~mmCQdnoFJ54kBUeB44r6BvGrIzFaLmdQa2SfgvPfopTh45Ei0niASiwa11tpkWAdpsVAsRHyWJKI~oqBHQjuNPCMdGMaC64ZAyul4h4~Ou6TJ170paHnu8kPHZ9ZV8fhSHkbOS-INsfqfstnPqGLwsoOyKG2qxb35~TNUdVYKgZ81KgKKbslqsM1OAR9baOkmnti2Q6~rkNY9yn5ogriOlEXzYpIQKOfVsbP~yAK6-Ifr8C7kpIkc7i6Pk2sp3RHmtGTEETiIykEXfZRHnifcp5XEUqM47Fd0qjKs2VdSaxb6ebffcZbnuR7kISFcticMnFB-~TVhHS6bgrA__')]">
-      <h2 class="text-white uppercase text-6xl font-bold absolute top-1/2 left-10">Cameras</h2>
+    <div class="max-sm:h-[392px] max-sm:bg-center max-sm:relative w-screen h-screen bg-no-repeat bg-cover bg-center bg-[url('http://localhost:81/images/video/bg.png')]">
+      <h2 class="text-white uppercase text-7xl font-black absolute top-1/2 left-10">Cameras</h2>
     </div>
     <div class="bg-footer-dark h-10 flex items-center max-sm:bg-white justify-end text-white px-40 max-sm:bg-white max-sm:w-screen" @click="showMe">
       <button class="flex gap-3 bg-white p-2 max-sm:bg-white">
@@ -78,7 +78,7 @@
 </template>
 
 <script>
-import Action from '@/images/video/video.json'
+// import Action from 'http://localhost/koko/images/video/video.json'
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import ScrollButton from "@/components/ScrollButton.vue"
@@ -127,7 +127,7 @@ export default {
   },
   methods: {
     getImagePath(image) {
-      return (`src/images/video/${image}`);
+      return (`http://localhost/koko/images/video/${image}`);
     },
     goToItem(item) {
       this.$router.push({ path: `/video/item/${item.id}`, params: { item } });

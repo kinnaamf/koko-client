@@ -6,6 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="c8ccd046-1f47-405d-857d-870f60a8a60a" name="Changes" comment="do skorih vstre4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AboutView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AboutView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AllCategoriesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AllCategoriesView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AmpsView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AmpsView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AudioView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AudioView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/HeadphonesView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeadphonesView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/PhotoCamerasView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PhotoCamerasView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SpeakersView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SpeakersView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoCamerasView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/VideoView.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/VideoView.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,8 +47,8 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/kinnaamf/practice/&quot;,
-    &quot;accountId&quot;: &quot;101e4289-c3b5-43f3-a0a7-fed18c0dbd4e&quot;
+    &quot;url&quot;: &quot;https://github.com/kinnaamf/practice.git&quot;,
+    &quot;accountId&quot;: &quot;006a9b66-7400-47c9-bde0-7dc766da4a9e&quot;
   }
 }</component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/usr/bin/php" />
@@ -51,27 +64,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/kokosik/WebstormProjects/practice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\kokosik\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "/home/kokosik/WebstormProjects",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/home/kokosik/.local/share/JetBrains/Toolbox/apps/webstorm/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;vue.recent.templates&quot;: [
-      &quot;Vue Composition API Component&quot;
+  "keyToStringList": {
+    "vue.recent.templates": [
+      "Vue Composition API Component"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
@@ -80,6 +93,7 @@
       <recent name="C:\Users\kinnaamf\Desktop\practice\src\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images/categories/audio" />
       <recent name="C:\Users\kinnaamf\Desktop\practice\public" />
       <recent name="C:\Users\kinnaamf\Desktop\practice\src\assets" />
     </key>
@@ -114,6 +128,12 @@
       <workItem from="1717183060882" duration="1750000" />
       <workItem from="1731610274179" duration="7034000" />
       <workItem from="1731689528480" duration="229000" />
+      <workItem from="1732275907367" duration="827000" />
+      <workItem from="1732514785452" duration="141000" />
+      <workItem from="1732514969280" duration="50000" />
+      <workItem from="1732526731441" duration="4000" />
+      <workItem from="1732533203626" duration="402000" />
+      <workItem from="1732533611596" duration="7750000" />
     </task>
     <task id="LOCAL-00001" summary="do skorih vstre4">
       <option name="closed" value="true" />
@@ -132,5 +152,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="do skorih vstre4" />
     <option name="LAST_COMMIT_MESSAGE" value="do skorih vstre4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/tailwind.config.js</url>
+          <line>2</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

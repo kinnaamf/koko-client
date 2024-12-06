@@ -1,8 +1,8 @@
 <template>
   <div>
     <Header />
-    <div class="max-sm:h-[392px] max-sm:bg-center max-sm:relative w-screen h-screen bg-no-repeat bg-cover bg-[url('https://s3-alpha-sig.figma.com/img/910d/85b8/edf03fa17303a30fcc69cd9edf6cbc6a?Expires=1717372800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pxQXTgKOcolR1TucDuq3gltuNC15yf7MhIVFC1jGsOeVubkg25pyvgwll9lth2BQAX4zxhJhxBjDndqT~POh5DxWWWI2pzAhWGy9eWzOVpuLWTOIt45apdEM49d-rF4BJ9o31NuswrvzqwHAV5YWrrGEhrKsi4syg3irAmOhBo0KbZ0jK93fx6qfuc5l5NgdpzBAErv-Qpuw91kXXMvUw4ZkoWKFjUUe0Md-Xf7SW4ezEXfUnvhRjHrdiptUBvmxVZLkdGJ~jq6Uv8gC4cWfPzxbYVlT6llMrOPFtvfD8HfuqNNwlgcKt8Yuw3vabCLQ7-JxOgk4QWhiWlgURvMhwg__')]">
-      <h2 class="text-white uppercase text-6xl font-bold absolute top-1/2 left-10">Speakers</h2>
+    <div class="max-sm:h-[392px] max-sm:bg-center max-sm:relative w-screen h-screen bg-no-repeat bg-cover bg-[url('http://localhost:81/images/speakers/bg.png')]">
+      <h2 class="text-white uppercase text-7xl font-black absolute top-1/2 left-10">Speakers</h2>
     </div>
     <div class="bg-footer-dark h-10 flex items-center max-sm:bg-white justify-end text-white px-40 " @click="showMe">
       <button class="flex gap-3 bg-white p-2 max-sm:bg-white">
@@ -84,7 +84,7 @@
 </template>
 
 <script>
-import Speakers from '@/images/speakers/speakers.json';
+// import Speakers from 'http://localhost/koko/images/speakers/speakers.json';
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 import ScrollButton from "@/components/ScrollButton.vue"

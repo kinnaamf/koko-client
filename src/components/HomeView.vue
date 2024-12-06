@@ -16,26 +16,26 @@
       </div>
       <div class="self-center justify-center w-10/12 h-fit max-sm:w-screen max-sm:mt-2">
         <img class="object-fill max-sm:object-contain mt-16 h-[900px] max-sm:h-[280px]"
-             src="/src/images/main/1.png"
+             src="http://localhost:81/images/main/1.png"
              alt="Something went wrong">
       </div>
       <div class="uppercase max-sm:gap-0 flex flex-col items-center gap-24 text-4xl font-bold mt-24">
         <div class="flex gap-40 max-sm:gap-0 max-sm:0 max-sm:flex-col max-sm:items-start">
-          <div @click="goToAmps" class="h-[540px] w-[430px] max-sm:items-start max-sm:w-screen max-sm:h-[390px] bg-cover bg-[url('/src/images/main/amps.png')]" style="cursor: pointer">
+          <div @click="goToAmps" class="h-[540px] w-[430px] max-sm:items-start max-sm:w-screen max-sm:h-[390px] bg-cover bg-[url('http://localhost:81/images/main/amps.png')]" style="cursor: pointer">
             <h3 class="mt-5 ml-5">Amps</h3>
           </div>
-          <div @click="goToSpeakers" class="h-[540px] w-[430px] max-sm:h-[390px] bg-cover bg-[url('/src/images/main/speakers.png')]" style="cursor: pointer">
+          <div @click="goToSpeakers" class="h-[540px] w-[430px] max-sm:h-[390px] bg-cover bg-[url('http://localhost:81/images/main/speakers.png')]" style="cursor: pointer">
             <h3 class="mt-5 ml-5">Speakers</h3>
           </div>
-          <div @click="goToHeadphones" class="h-[540px] w-[430px] max-sm:h-[390px] bg-cover max-sm:bg-center bg-[url('/src/images/main/headphones.png')]" style="cursor: pointer">
+          <div @click="goToHeadphones" class="h-[540px] w-[430px] max-sm:h-[390px] bg-cover max-sm:bg-center bg-[url('http://localhost:81/images/main/headphones.png')]" style="cursor: pointer">
             <h3 class="mt-5 ml-5">Headphones</h3>
           </div>
         </div>
         <div class="flex justify-center gap-40 max-sm:gap-0 max-sm:flex-col max-sm:w-[430px]">
-          <div @click="goToCameras" class="h-[540px] w-[430px] max-sm:h-[390px] bg-cover bg-center bg-[url('/src/images/main/cameras.png')]" style="cursor: pointer">
+          <div @click="goToCameras" class="h-[540px] w-[430px] max-sm:h-[390px] bg-cover bg-center bg-[url('http://localhost:81/images/main/cameras.png')]" style="cursor: pointer">
             <h3 class="mt-5 ml-5">Cameras</h3>
           </div>
-            <div @click="goToAction" class="h-[540px] max-sm:bg-right bg-right w-[430px] max-sm:h-[390px] bg-cover bg-no-repeat bg-[url('/src/images/main/action.png')]" style="cursor: pointer">
+            <div @click="goToAction" class="h-[540px] max-sm:bg-right bg-right w-[430px] max-sm:h-[390px] bg-cover bg-no-repeat bg-[url('http://localhost:81/images/main/action.png')]" style="cursor: pointer">
               <h3 class="mt-5 ml-5">Action Cameras</h3>
             </div>
         </div>
@@ -51,7 +51,7 @@
             </div>
             <div class="bg-cover w-[540px] h-[540px] max-sm:w-[430px] max-sm:h-[390px]">
               <a href="/#/headphones/item/16">
-                <img src="/src/images/main/majorv.png" alt="">
+                <img src="http://localhost:81/images/main/majorv.png" alt="">
               </a>
             </div>
           </div>
@@ -69,7 +69,7 @@
             </div>
             <div class="w-[720px] h-[720px] max-sm:w-[430px] max-sm:h-[390px]">
               <a href="/#/headphones/item/18">
-                <img src="/src/images/main/minoriv.png" alt="">
+                <img src="http://localhost:81/images/main/minoriv.png" alt="">
               </a>
             </div>
           </div>
@@ -81,7 +81,7 @@
         </div>
         <div class="flex gap-40 max-sm:gap-0 max-sm:flex-col">
           <div class="flex flex-column items-center gap-2 w-[640px] max-sm:w-[430px] h-[640px] mt-28 max-sm:px-3 max-sm:mb-3">
-            <div class="w-[640px] h-[640px] max-sm:w-[430px] bg-[url('/src/images/main/mggold.png')]"></div>
+            <div class="w-[640px] h-[640px] max-sm:w-[430px] bg-[url('http://localhost:81/images/main/mggold.png')]"></div>
             <div class="uppercase text-2xl self-start font-bold">
               <a href="">MG Gold</a>
             </div>
@@ -94,7 +94,7 @@
           </div>
 
           <div class="flex flex-column items-center gap-2 w-[640px] h-[640px] max-sm:px-3 max-sm:w-[430px]">
-            <div class="w-[640px] h-[640px] bg-cover bg-[url('/src/images/main/angus.png')]"></div>
+            <div class="w-[640px] h-[640px] bg-cover bg-[url('http://localhost:81/images/main/angus.png')]"></div>
             <div class="uppercase text-2xl self-start font-bold">
               <a href="">GUITAR HEROES: ANGUS YOUNG</a>
             </div>
@@ -108,7 +108,7 @@
         </div>
       </div>
       <div class="flex flex-column items-start px-40 gap-2 my-16 max-sm:my-8">
-        <div class="w-[1600px] bg-no-repeat max-sm:w-[430px] max-sm:h-[390px] h-[720px] bg-cover bg-[url('/src/images/main/vinyl.png')]"></div>
+        <div class="w-[1600px] bg-no-repeat max-sm:w-[430px] max-sm:h-[390px] h-[720px] bg-cover bg-[url('http://localhost:81/images/main/vinyl.png')]"></div>
         <div class="uppercase text-2xl self-start font-bold max-sm:p-3">
           <a href="">UNITED THROUGH MUSIC</a>
         </div>

@@ -137,22 +137,22 @@ export default {
 
       switch (item.category) {
         case 'Amps':
-          basePath = 'src/images/amps';
+          basePath = 'http://localhost/koko/images/amps';
           break;
         case 'Cameras':
-          basePath = 'src/images/cameras';
+          basePath = 'http://localhost/koko/images/cameras';
           break;
         case 'Headphones':
-          basePath = 'src/images/headphones';
+          basePath = 'http://localhost/koko/images/headphones';
           break;
         case 'Speakers':
-          basePath = 'src/images/speakers';
+          basePath = 'http://localhost/koko/images/speakers';
           break;
         case 'Videocameras':
-          basePath = 'src/images/video';
+          basePath = 'http://localhost/koko/images/video';
           break;
         default:
-          basePath = 'src/images';
+          basePath = 'http://localhost/koko/images';
       }
 
       return `${basePath}/${item.image}`;
