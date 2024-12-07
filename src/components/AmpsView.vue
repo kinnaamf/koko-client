@@ -63,7 +63,7 @@
   <!-- Список усилителей -->
   <div v-if="loading" class="text-white text-center py-10">Loading...</div>
   <div v-else class="bg-[#383434] text-white grid grid-cols-3 gap-4 p-4">
-    <div v-for="amp in filteredAmps" :key="amp.id" class="amp-item cursor-pointer bg-gray-700 rounded-lg p-4" @click="goToItem(amp)">
+    <div v-for="amp in filteredAmps" :key="amp.id" class="amp-item cursor-pointer bg-[#2e2e2e] rounded-lg p-4" @click="goToItem(amp)">
       <img :src="'http://localhost:81/images/' + amp.image" :alt="amp.name" class="w-full h-auto rounded-md" />
       <div class="flex flex-col gap-4 p-4">
         <h2 class="text-l font-bold">{{ amp.name }}</h2>
@@ -169,12 +169,12 @@ export default {
   font-family: 'Roboto', sans-serif;
 }
 
-.amp-item img {
+.speaker-item img {
   max-width: 100%;
   height: auto;
 }
 
-.amp-item {
+.speaker-item {
   background-color: #2e2e2e;
   border-radius: 10px;
 }
