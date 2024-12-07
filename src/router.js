@@ -12,7 +12,6 @@ import PhotoCamerasView from '@/components/PhotoCamerasView.vue';
 import HeadphonesView from '@/components/HeadphonesView.vue';
 import SpeakersView from '@/components/SpeakersView.vue';
 import VideoCamerasView from '@/components/VideoCamerasView.vue';
-import About from "@/components/AboutView.vue";
 import AboutView from "@/components/AboutView.vue";
 
 const routes = [

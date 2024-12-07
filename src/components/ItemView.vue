@@ -5,7 +5,8 @@
       <div class="flex flex-col px-80 max-sm:px-0 text-white">
         <div class="flex max-sm:flex-col gap-10">
           <div>
-            <img :src="itemImage" alt="">
+            <img :src="'http://localhost:81/images/' + item.image" alt=item.name>
+
           </div>
           <div class="flex mt-20">
             <div class="flex flex-col gap-10 max-sm:gap-3">
@@ -48,12 +49,9 @@
 <script>
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-// import Amps from 'http://localhost/koko/images/amps/amps.json';
-// import Headphones from 'http://localhost/koko/images/headphones/headphones.json';
-// import Speakers from 'http://localhost/koko/images/speakers/speakers.json';
-// import Cameras from 'http://localhost/koko/images/cameras/cameras.json';
-// import Video from 'http://localhost/koko/images/video/video.json';
-import { cartStore } from '@/store/cartStore';
+
+import {getItems} from "@/services/ApiService.js";
+import {formToJSON} from "axios";
 
 export default {
   components: {
@@ -62,65 +60,110 @@ export default {
   },
   data() {
     return {
-      item: {}
-    };
-  },
-  computed: {
-    itemImage() {
-      return `/src/images/${this.itemType}/${this.item.image}`;
-    },
-    itemType() {
-      const path = this.$route.path;
-      if (path.includes('headphones')) return 'headphones';
-      if (path.includes('speakers')) return 'speakers';
-      if (path.includes('amps')) return 'amps';
-      if (path.includes('cameras')) return 'cameras';
-      if (path.includes('video')) return 'video';
-      return '';
+      item : {},
     }
+  },
+  async mounted() {
+    const response = await fetch('http://localhost:81/items.php')
+
+    const selectedItem = localStorage.getItem("selected item");
+
+    if (selectedItem) {
+      this.item = JSON.parse(selectedItem);
+    } else {
+      console.error("Selected item not found");
+    }
+
+    console.log(this.item);
+
   },
   created() {
-    this.loadItem();
-  },
-  mounted() {
-    this.$nextTick(() => {
-      window.scrollTo(0, 0);
-    });
-  },
-  methods: {
-    toCart() {
-      cartStore.addToCart(this.item);
-    },
-    loadItem() {
-      let items;
-      switch (this.itemType) {
-        case 'headphones':
-          items = Headphones;
-          break;
-        case 'speakers':
-          items = Speakers;
-          break;
-        case 'amps':
-          items = Amps;
-          break;
-        case 'cameras':
-          items = Cameras;
-          break;
-        case 'video':
-          items = Video;
-          break;
-        default:
-          items = [];
-      }
-      this.item = items.find(item => item.id === parseInt(this.$route.params.id)) || {};
-      if (this.item.name) {
-        document.title = this.item.name;
-      }
-    }
+
   }
 };
 </script>
 
+<!--<script>-->
+<!--import Header from "@/components/Header.vue";-->
+<!--import Footer from "@/components/Footer.vue";-->
+<!--import { cartStore } from '@/store/cartStore';-->
+<!--import { getAmps } from "@/services/ApiService.js";-->
+<!--import { getAction } from "@/services/ApiService.js";-->
+<!--import { getCameras } from "@/services/ApiService.js";-->
+<!--import { getHeadphones } from "@/services/ApiService.js";-->
+<!--import { getSpeakers } from "@/services/ApiService.js";-->
+<!--import { getItems } from "@/services/ApiService.js";-->
+
+<!--export default {-->
+<!--  components: {-->
+<!--    Header,-->
+<!--    Footer-->
+<!--  },-->
+<!--  data() {-->
+<!--    console.log();-->
+<!--    return {-->
+<!--      item: {},-->
+<!--      category: this.category,-->
+<!--    };-->
+<!--  },-->
+<!--  computed: {-->
+<!--    itemImage() {-->
+<!--      return `http://localhost:81/images/${this.category}/${this.item.image}`;-->
+<!--    },-->
+<!--    itemCategory() {-->
+<!--      return this.$route.params.category || '';-->
+<!--    }-->
+<!--  },-->
+<!--  created() {-->
+<!--    this.loadItem();-->
+<!--  },-->
+<!--  mounted() {-->
+<!--    this.$nextTick(() => {-->
+<!--      window.scrollTo(0, 0);-->
+<!--    });-->
+<!--  },-->
+<!--  methods: {-->
+<!--    getItem() {-->
+<!--      response `http://localhost:81/amps.php`;-->
+<!--    },-->
+<!--    toCart() {-->
+<!--      cartStore.addToCart(this.item);-->
+<!--    },-->
+<!--    async loadItem() {-->
+<!--      let items;-->
+<!--      const itemId = parseInt(this.$route.params.id); // Получаем ID предмета из маршрута-->
+
+<!--      switch (this.itemCategory) {-->
+<!--        case 'headphones':-->
+<!--          items = await getHeadphones();-->
+<!--          break;-->
+<!--        case 'speakers':-->
+<!--          items = await getSpeakers();-->
+<!--          break;-->
+<!--        case 'amps':-->
+<!--          items = await getAmps();-->
+<!--          break;-->
+<!--        case 'cameras':-->
+<!--          items = await getCameras();-->
+<!--          break;-->
+<!--        case 'video':-->
+<!--          items = await getAction();-->
+<!--          break;-->
+<!--        default:-->
+<!--          items = [];-->
+<!--      }-->
+<!--      this.item = items.find(item => item.id === itemId) || {};-->
+
+<!--      if (this.item.name) {-->
+<!--        document.title = this.item.name;-->
+<!--      }-->
+<!--    }-->
+<!--  }-->
+<!--};-->
+<!--</script>-->
+
+
 <style scoped>
 
 </style>
+
