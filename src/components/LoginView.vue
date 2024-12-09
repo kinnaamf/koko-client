@@ -1,7 +1,6 @@
 <template>
   <LRView></LRView>
   <div class="flex justify-center items-center w-full h-screen">
-
     <section class="py-3 py-md-5 py-xl-8">
       <div class="container">
         <div class="row">
@@ -16,7 +15,7 @@
           <div class="col-12 col-lg-10 col-xl-8">
             <div class="row gy-5 justify-content-center">
               <div class="col-12 col-lg-5">
-                <form @submit.prevent="login" method="post">
+                <form @submit.prevent="login">
                   <div class="row gy-3 overflow-hidden">
                     <div class="col-32 w-screen">
                       <div class="form-floating mb-3">
@@ -50,47 +49,23 @@
 <script>
 import HeaderC from "@/components/HeaderC.vue";
 import LRView from "@/components/LRView.vue";
-import axios from "axios";
+
+import { useRouter } from "vue-router"; // Для редиректа
 
 export default {
-  components: {LRView, HeaderC},
+  components: { LRView, HeaderC },
   data() {
     return {
       username: '',
       password: '',
-      errorMessage: ''
+      errorMessage: '',
     };
   },
-
   methods: {
-    async login() {
-      try {
-        const formData = new FormData();
-        formData.append("username", this.username);
-        formData.append("password", this.password);
 
-
-        const response = await fetch("http://localhost/koko/login.php", {
-          method: "POST",
-          body: formData,
-        });
-
-        if (!response.ok) {
-          throw new Error(`Ошибка сервера: ${response.status}`);
-        }
-
-        const json = await response.json();
-
-        localStorage.setItem("token", json.token);
-      } catch (error) {
-        console.error("Error:", error);
-        this.errorMessage = "Connection error.";
-      }
-    },
-  }
-}
+  },
+};
 </script>
 
 <style scoped>
-
 </style>

@@ -36,6 +36,11 @@ const i18n = createI18n({
     }
 })
 
+import axios from "axios";
+
+axios.defaults.baseURL = 'http://localhost:81';
+axios.defaults.withCredentials = true;
+
 const app = createApp(App)
 app.use(router)
 app.use(i18n)
