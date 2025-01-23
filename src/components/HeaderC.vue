@@ -9,7 +9,7 @@
     <a href="/#/">Home</a>
   </div>
   <div>
-    <span>Support</span>
+    <a href="">Support</a>
   </div>
 </div>
 </template>

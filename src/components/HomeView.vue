@@ -47,10 +47,10 @@
               <h2 class="max-sm:text-white max-sm:self-center max-sm:pl-3">An icon forever</h2>
             </div>
             <div class="text-[13px] max-sm:text-white max-sm:self-center">
-              <a href="/#/headphones/item/16">Shop MAJOR V</a>
+              <a href="/#/headphones/item/15">Shop MAJOR V</a>
             </div>
             <div class="bg-cover w-[540px] h-[540px] max-sm:w-[430px] max-sm:h-[390px]">
-              <a href="/#/headphones/item/16">
+              <a href="/#/headphones/item/15">
                 <img src="http://localhost:81/images/main/majorv.png" alt="">
               </a>
             </div>
@@ -65,10 +65,10 @@
               </h2>
             </div>
             <div class="text-[13px]">
-              <a href="/#/headphones/item/18">SHOP MAJOR IV</a>
+              <a href="/#/headphones/item/16">SHOP MAJOR IV</a>
             </div>
             <div class="w-[720px] h-[720px] max-sm:w-[430px] max-sm:h-[390px]">
-              <a href="/#/headphones/item/18">
+              <a href="/#/headphones/item/16">
                 <img src="http://localhost:81/images/main/minoriv.png" alt="">
               </a>
             </div>

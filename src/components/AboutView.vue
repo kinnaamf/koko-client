@@ -86,6 +86,7 @@
       </p>
       <div @click="goToAmps" class="cursor-pointer bg-[url('http://localhost:81/images/about/headphones_desktop.avif')] mt-16 imm w-9/12 bg-cover bg-black relative right-32"></div>
     </div>
+
   </div>
 <Footer></Footer>
 </template>

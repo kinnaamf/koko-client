@@ -13,9 +13,6 @@ import HeadphonesView from '@/components/HeadphonesView.vue';
 import SpeakersView from '@/components/SpeakersView.vue';
 import VideoCamerasView from '@/components/VideoCamerasView.vue';
 import AboutView from "@/components/AboutView.vue";
-import AdminItems from "@/components/AdminItems.vue";
-import AdminItemForm from "@/components/AdminItemForm.vue";
-
 
 const routes = [
     { path: '/login', component: LoginView, name: 'Koko Login' },
@@ -36,9 +33,6 @@ const routes = [
     { path: '/speakers', component: SpeakersView, name: 'Speakers' },
     { path: '/video', component: VideoCamerasView, name: 'Action Cameras' },
     { path: '/about', component: AboutView, name: 'About' },
-    { path: '/admin', component: AdminItems, name: 'AdminItems', meta: {requiresAuth: true} },
-    { path: '/admin/items/create', component: AdminItemForm, name: 'AdminItemCreate', meta: {requiresAuth: true} },
-    { path: '/admin/items/:id/edit', component: AdminItemForm, name: 'AdminItemEdit', meta: {requiresAuth: true} },
 ];
 /*
 , redirect: '/en'

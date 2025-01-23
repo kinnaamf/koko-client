@@ -1,4 +1,4 @@
-import { cartStore } from "@/store/cartStore.js";
+import { cartStore } from "@/store/store.js";
 import LangSwitcher from "@/components/LangSwitcher.vue";
 import { __VLS_internalComponent, __VLS_componentsOption, __VLS_name, __VLS_slots } from "./Header.vue";
 
